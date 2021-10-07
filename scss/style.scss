@@ -1,0 +1,35 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,900;1,200&display=swap');
+.cals {
+    background-color: yellow;
+}
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: gray;
+    box-sizing: border-box;
+    font-size: 16px;	
+}
+body {
+        -webkit-font-smoothing: antialised;
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+        
+        min-height: 100%;
+        transition: all 0.7s ease-out;
+}
+.centered {
+    text-align: center;
+}
+a {
+        color: gray;
+        outline: 0;
+}
+.navbar {
+    font-weight: 800;
+    background-image: url("img/headerbg.png");
+}
+.navbar-inverse {
+    background-color: yellow;
+}
