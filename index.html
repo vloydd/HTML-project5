@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project5</title>
+    <title>2-Project5</title>
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,49 @@
 <div class="headi">
 
     <header class="header">
-        <div class="nav">
+        <div class="head-container container">
+            <nav class="head-navbar navbar navbar-expand-lg navbar-dark">
+                <div class="nav-lgo col-2">
+                        <a class="navbar-brand" href="#">LUCID</a>
+                        <div class="logo-info">
+                            <p class="logo-info">onepage<br>theme</p>
+                    </div>
+                </div>
+                <div class="nav-menu col justify-content-end">
+                    <button class="navba     navbar-toggler btn btn-outline-dark ml-auto " type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-pressed="false">Ξ</button>
+                    <div class="menu collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav ml-auto mt-lg-0">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Testmonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                            <!--<li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="#">Action 1</a>
+                                    <a class="dropdown-item" href="#">Action 2</a>
+                                </div>
+                            </li>-->
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!--<div class="nav">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
@@ -25,19 +67,29 @@
                             <a href="#" class="logo-title">LUCID</a>
                         </div>
                     </div>
-                    <div class="offset-1 col-3"><div class="block"></div></div>
                     <div class="col">
                         <div class="block">
-                            <nav class="navbar navbar-expand-sm bg-none">
-                                <ul class="navbar-nav">
+                            <button class="navbar-toggler d-lg-none btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                            aria-expanded="false" aria-label="Toggle navigation"></button>
+                            <nav class="navbar navbar-expand-sm bg-none navbar-expand-lg">
+                                <ul class="navbar-nav ml-auto collapse navbar-collapse">
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Link 1</a>
+                                    <a class="nav-link" href="#">Home</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Link 2</a>
+                                    <a class="nav-link" href="#">Featurtes</a>
                                   </li>
                                   <li class="nav-item">
-                                    <a class="nav-link" href="#">Link 3</a>
+                                    <a class="nav-link" href="#">About</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Testmonials</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Pricing</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">Contacts</a>
                                   </li>
                                 </ul>
                               </nav>
@@ -45,7 +97,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     <!--<div class="container">
                 <div class="col-3">
                     <div class="block">
@@ -69,22 +121,33 @@
                 </div> 
     </div>-->
     </header>
-    <info class="info row">
+    <info class="info">
         <div class="container">
-            <div class="col-5">
-                <div class="block">INFOrmaTION
-
-
-                        <div class="row">
-                            <button type="button" class="btn btn-primary">DOWNLOAD NOW</button>
-                            <button type="button" class="btn btn-outline-secondary">VIEW FEATURES</button>
-                        </div>
+            <div class="info-row row">
+                <div class="col-6">
+                        <div class="info-cont">
+                            <h5 class="info-cont__heading">
+                                introducing lucid theme
+                            </h5>
+                            <h1 class="info-cont__title">Carefully crafted and beautiful landing page.</h1>
+                            <p class="info-cont__about">
+                                Etiam ullamcorper et turpis eget hendrerit. 
+                                Praesent varius risus mi, at elementum magna ultricies accumsan. 
+                                Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
+                            </p>
+                            <div class="info-cont__buttons">
+                                <button type="button" class="info-cont__buttons__primary btn btn-primary">DOWNLOAD NOW</button>
+                                <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">VIEW FEATURES</button>
+                            </div>
+                                
                             
-                        
+                    </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="block">APPLE PHOTo</div>
+                <div class="info-image col">
+                    <div class="info-image__block">
+                    <img src="/img/info_image.png" class="info-image__item img-fluid" title="info image" alt="phones info-image">
+                    </div>
+                </div>
             </div>
         </div>
     </info>
@@ -101,65 +164,47 @@
 
 
 <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: bisque">
+            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: gray">
                 <div class="col-1">
                     <a class="navbar-brand" href="#">LUCID</a>
-                </div>
-                <div class="col-6">
-
                 </div>
                 <button class="navbar-toggler d-lg-none btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                     aria-expanded="false" aria-label="Toggle navigation"></button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                         <li class="nav-item active">
                             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Link</a>
                         </li>
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Testmonials</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Testmonials</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="#">Testmonials</a>
+                          </li>
+                        <!--<li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                             <div class="dropdown-menu" aria-labelledby="dropdownId">
                                 <a class="dropdown-item" href="#">Action 1</a>
                                 <a class="dropdown-item" href="#">Action 2</a>
                             </div>
-                        </li>
+                        </li>-->
                     </ul>
-                    <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
                 </div>
             </nav>
+
+
         </div>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">a</button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-right navbar-nav">
-                    <li div="active"><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <ul class="nav navbar-right navbar-nav">
-        <li div="active"><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Home</a></li>
-    </ul>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f2c150d561.js" crossorigin="anonymous"></script>
 </body>
 </html>
