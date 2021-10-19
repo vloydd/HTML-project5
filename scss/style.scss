@@ -5,6 +5,7 @@
 //@import "node_modules/bootstrap/scss/_grid.scss";
 //@import "node_modules/bootstrap/js/popper.min.js";
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,600;0,700;1,400;1,600;1,700&display=swap');
+//@import "breakpoints";
 //$theme-bgim: url("/img/headerbg.png");  
 $grid-columns: 12;
 $grid-gutter-width: 30px;
@@ -268,7 +269,7 @@ hr {
     letter-spacing: 0.020em;
     color: $lightgray;
     padding-right: 5rem;
-    margin-bottom: 56px;
+    margin-bottom: 57px;
 }
 .info-cont__buttons {
     display: flex;
@@ -278,16 +279,22 @@ hr {
 }
 .info-cont__buttons__outline__secondary {
     margin-left: 10px;
+    color: $white!important;
 }
 .info-image {
     padding: 0!important;
 }
 .info-image__block {
     text-align: end;
+    text-align: end;
+    margin-left: auto;
+    vertical-align: bottom;
 }
 .info-image__item {
     text-align: end;
     margin-left: auto;
+    margin-top: auto!important;
+    vertical-align: sub;
 }
 @media (max-width: 1200px) {
     .navbar-brand {
@@ -298,6 +305,9 @@ hr {
         flex-wrap: wrap!important;
         //margin-left: auto;
         text-align: center;
+    }
+    .info-cont__about {
+        @include adaptiv-value("font-size", 24, 20, 0);
     }
 }
 @media (max-width: 991px ) {
@@ -321,5 +331,14 @@ hr {
 @media (max-width: 991px ) {
     .info-row {
         flex-wrap: wrap!important;
+    }
+}
+@media (max-width:768px) {
+    .info-image__block {
+        text-align:center;
+    }
+    .info-cont__buttons {
+        text-align: center;
+        margin: 0 auto;
     }
 }
