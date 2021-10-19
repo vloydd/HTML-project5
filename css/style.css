@@ -10151,7 +10151,7 @@ hr {
   letter-spacing: 0.02em;
   color: #999999;
   padding-right: 5rem;
-  margin-bottom: 56px;
+  margin-bottom: 57px;
 }
 
 .info-cont__buttons {
@@ -10164,6 +10164,7 @@ hr {
 
 .info-cont__buttons__outline__secondary {
   margin-left: 10px;
+  color: #ffffff !important;
 }
 
 .info-image {
@@ -10172,11 +10173,16 @@ hr {
 
 .info-image__block {
   text-align: end;
+  text-align: end;
+  margin-left: auto;
+  vertical-align: bottom;
 }
 
 .info-image__item {
   text-align: end;
   margin-left: auto;
+  margin-top: auto !important;
+  vertical-align: sub;
 }
 
 @media (max-width: 1200px) {
@@ -10188,6 +10194,10 @@ hr {
   .nav-lgo {
     flex-wrap: wrap !important;
     text-align: center;
+  }
+
+  .info-cont__about {
+    font-size: calc(20px + 4 * ((100vw - 320px) / 1600));
   }
 }
 @media (max-width: 991px) {
@@ -10213,5 +10223,15 @@ hr {
 @media (max-width: 991px) {
   .info-row {
     flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 768px) {
+  .info-image__block {
+    text-align: center;
+  }
+
+  .info-cont__buttons {
+    text-align: center;
+    margin: 0 auto;
   }
 }
