@@ -1,0 +1,48 @@
+.footer-copyrights__item {
+  text-transform: uppercase;
+  color: #444348;
+  margin: 0;
+  font-weight: 700;
+}
+
+.footer-wrapper {
+  background-color: #15141a;
+  min-height: 160px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  margin-top: auto;
+  display: block;
+}
+
+.fa-twitter__cust {
+  color: #008ed6;
+}
+
+.footer-icons-row {
+  margin-bottom: 15px;
+}
+
+i {
+  color: #444348;
+  font-size: 19px;
+  padding: 0 15px;
+  padding-top: 12px;
+  padding-bottom: 29px;
+  height: 18px;
+}
+
+.fa-first {
+  padding-left: 0 !important;
+  padding-right: 11px !important;
+}
+
+.fa-last {
+  padding-right: 0 !important;
+}
+
+i:hover {
+  color: #ededed;
+}

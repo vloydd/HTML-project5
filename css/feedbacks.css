@@ -1,0 +1,6 @@
+.feed-wrapper {
+  background-image: url("/img/feedback/feedback_bg.png");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+}

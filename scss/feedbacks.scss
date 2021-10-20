@@ -1,0 +1,16 @@
+$grid-columns: 12;
+$grid-gutter-width: 30px;
+$lightblue: #008ed6;
+$white: #ffffff;
+$lightgray: #999999;
+$easybrown: #f2f2f2;
+$dark: #15141a;
+$darkgray: #444348;
+$black: #1a1a1a;
+$browngray: #ededed;
+.feed-wrapper {
+    background-image: url('/img/feedback/feedback_bg.png');
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
