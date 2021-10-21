@@ -4,21 +4,26 @@
 
 .overview-info {
   text-align: center;
-  margin-bottom: 73px !important;
+  margin-bottom: 72px !important;
 }
 
 .h5-overview {
-  margin-bottom: 10px !important;
+  margin-bottom: 11px !important;
 }
 
 .h2-overview {
-  margin-bottom: 12px !important;
+  margin-bottom: 11px !important;
+  letter-spacing: 0.0045em !important;
 }
 
 .over-item {
   margin-top: 3px;
   text-align: center;
   padding: 0 15px;
+}
+
+.over-item__border {
+  margin-bottom: -20px;
 }
 
 .over-item__image {
@@ -37,7 +42,7 @@
 .over-item__heading {
   font-size: 24px;
   font-weight: 600;
-  letter-spacing: -0.007em;
+  letter-spacing: -0.0095em;
   color: #1a1a1a;
   margin-bottom: 10px !important;
 }

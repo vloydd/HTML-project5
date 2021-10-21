@@ -17,8 +17,8 @@ $browngray: #ededed;
     margin-top: 40px!important;
 }
 .info-cont__heading {
-    margin-top: -1px!important;
-    margin-bottom: 20px!important;
+    margin-top: -1px!important;     
+    margin-bottom: 21px!important;
 }
 .info-cont__title {
     //margin-top: -5px;
@@ -26,9 +26,9 @@ $browngray: #ededed;
     line-height:  48px;
     font-weight: 600;
     text-transform: none;
-    letter-spacing: normal;
+    letter-spacing: 0.0003em;
     color: $white;
-    margin-bottom: 24px;
+    margin-bottom: 23px;
 
 }
 .info-cont__about {

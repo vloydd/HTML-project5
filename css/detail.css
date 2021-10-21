@@ -1,0 +1,39 @@
+.detail-image__block {
+  text-align: start;
+}
+
+.detail-image__item {
+  margin-top: 40px;
+  margin-left: 20px;
+  vertical-align: sub;
+}
+
+.detail-info {
+  text-align: start;
+}
+
+.detail-info-heading {
+  margin-top: 90px;
+}
+
+.h2-details {
+  margin-top: 11px !important;
+  letter-spacing: 0em !important;
+  margin-bottom: 12px !important;
+  font-size: 36.1px !important;
+}
+
+.details-info__about {
+  margin-top: 16px;
+  padding-right: 84px;
+  letter-spacing: 0.0143em;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+@media (max-width: 767px) {
+  .detail-image__item {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}

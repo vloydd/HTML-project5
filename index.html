@@ -1,455 +1,432 @@
 <!DOCTYPE html>
-
+ 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2-Project5</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/inform.css">
-    <link rel="stylesheet" type="text/css" href="css/detail.css">
-    <link rel="stylesheet" type="text/css" href="css/customise.css">
-    <link rel="stylesheet" type="text/css" href="css/overview.css">
-    <link rel="stylesheet" type="text/css" href="css/feedbacks.css">
-    <link rel="stylesheet" type="text/css" href="css/pricing.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>2-Project5</title>
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+ 
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+   <link rel="stylesheet" type="text/css" href="css/header.css">
+   <link rel="stylesheet" type="text/css" href="css/inform.css">
+   <link rel="stylesheet" type="text/css" href="css/detail.css">
+   <link rel="stylesheet" type="text/css" href="css/customise.css">
+   <link rel="stylesheet" type="text/css" href="css/overview.css">
+   <link rel="stylesheet" type="text/css" href="css/feedbacks.css">
+   <link rel="stylesheet" type="text/css" href="css/pricing.css">
+   <link rel="stylesheet" type="text/css" href="css/contact.css">
+   <link rel="stylesheet" type="text/css" href="css/footer.css">
+ 
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 
-    <!--<div id="wrapper" class="d-flex flex-column min-vh-100">
-        <div class="headi">
-            <header class="header">
-                <div class="head-container container">
-                    <nav class="head-navbar navbar navbar-expand-lg navbar-dark">
-                        <div class="nav-lgo col-2">
-                                <a class="navbar-brand" href="#">LUCID</a>
-                                <div class="logo-info">
-                                    <p class="logo-info">onepage<br>theme</p>
-                            </div>
-                        </div>
-                        <div class="nav-menu col justify-content-end">
-                            <button class="navba     navbar-toggler btn btn-outline-dark ml-auto " type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-pressed="false">Ξ</button>
-                            <div class="menu collapse navbar-collapse" id="collapsibleNavId">
-                                <ul class="navbar-nav ml-auto mt-lg-0">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Testimonials</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </header>-->
-    <div id="wrapper" class="d-flex flex-column min-vh-100">
-        <div class="headi">
-            <header class="header">
-                <div class="head-container container">
-                    <nav class="head-navbar navbar navbar-expand-lg navbar-dark">
-                        <div class="nav-lgo col-3 col-md-2">
-                                <a class="navbar-brand mr-0 mr-sm-1" href="#">LUCID</a>
-                                <div class="logo-info mr-auto">
-                                    <p class="logo-info">onepage<br>theme</p>
-                            </div>
-                        </div>
-                        <div class="nav-menu col-9 col-md-10 justify-content-end">
-                            <button class="navba     navbar-toggler btn btn-outline-dark ml-auto " type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-pressed="false">Ξ</button>
-                            <div class="menu collapse navbar-collapse" id="collapsibleNavId">
-                                <ul class="navbar-nav ml-auto mt-lg-0">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Testimonials</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Pricing</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
-            </header>
-            <inform class="inform">
-                <div class="container">
-                    <div class="info-row row">
-                        <div class="info col-md-6">
-                                <div class="info-cont">
-                                    <h5 class="info-cont__heading">
-                                        introducing lucid theme
+   <div id="wrapper" class="d-flex flex-column min-vh-100">
+       <div class="headi">
+           <header class="header">
+               <div class="head-container container">
+                   <nav class="head-navbar navbar navbar-expand-lg navbar-dark">
+                       <div class="nav-lgo col-3 col-md-2">
+                               <a class="navbar-brand mr-0 mr-sm-1" href="#">LUCID</a>
+                               <div class="logo-info mr-auto">
+                                   <p class="logo-info">onepage<br>theme</p>
+                           </div>
+                       </div>
+                       <div class="nav-menu col-9 col-md-10 justify-content-end">
+                           <button class="navba     navbar-toggler btn btn-outline-dark ml-auto " type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-pressed="false">Ξ</button>
+                           <div class="menu collapse navbar-collapse" id="collapsibleNavId">
+                               <ul class="navbar-nav ml-auto mt-lg-0">
+                                   <li class="nav-item active">
+                                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="nav-link" href="#">Features</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="nav-link" href="#">About</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="nav-link" href="#">Testimonials</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="nav-link" href="#">Pricing</a>
+                                   </li>
+                                   <li class="nav-item">
+                                       <a class="nav-link" href="#">Contact</a>
+                                   </li>
+                               </ul>
+                           </div>
+                       </div>
+                   </nav>
+               </div>
+           </header>
+           <inform class="inform">
+               <div class="container">
+                   <div class="info-row row">
+                       <div class="info col-md-6">
+                               <div class="info-cont">
+                                   <h5 class="info-cont__heading">
+                                       introducing lucid theme
+                                   </h5>
+                                   <h1 class="info-cont__title">Carefully crafted and beautiful landing page.</h1>
+                                   <p class="info-cont__about">
+                                       Etiam ullamcorper et turpis eget hendrerit.
+                                       Praesent varius risus mi, at elementum magna ultricies accumsan.
+                                       Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
+                                   </p>
+                                   <div class="info-cont__buttons">
+                                       <button type="button" class="info-cont__buttons__primary btn btn-primary">DOWNLOAD NOW</button>
+                                       <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">VIEW FEATURES</button>
+                                   </div>
+                                      
+                                  
+                           </div>
+                       </div>
+                       <div class="info-image col-md">
+                           <div class="info-image__block">
+                           <img src="/img/inform/inform_1.png" class="info-image__item img-fluid" title="info image" alt="phones info-image">
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </inform>
+       </div>
+      
+       <div class="main flex-fill">
+           <overview class="overview">
+               <div class="overview-wrapper">
+                   <div class="overview-cont container">
+                       <div class="overview-info col">
+                           <h5 class="h5-standart h5-overview">
+                               product overview
+                           </h5>
+                           <h2 class="h2-overview">List of amazing features</h2>
+                           <img class="border-dashed over-item__border" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
+                       </div>
+                       <div class="over-row row">
+                           <div class="col-md-3 col-sm-6 col-xs">
+                                   <div class="over-item">
+                                       <div class="over-item__image">
+                                           <img src="/img/overview/overview_1.png" class=" over-item__image__item img-fluid" title="over-1" alt="over_1">
+                                       </div>
+                                       <h4 class="over-item__heading">
+                                           Responsive
+                                       </h4>  
+                                       <p class="over-item__info">
+                                           Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                       </p>
+                                   </div>
+                           </div>
+                           <div class="col-md-3 col-sm-6 col-xs">
+                                   <div class="over-item">
+                                       <div class="over-item__image">
+                                           <img src="/img/overview/overview_2.png" class=" over-item__image__item img-fluid" title="over-2" alt="over_2">
+                                       </div>
+                                       <h4 class="over-item__heading">
+                                           Customizable
+                                       </h4>  
+                                       <p class="over-item__info">
+                                           Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                       </p>
+                                   </div>
+                           </div>
+                           <div class="col-md-3 col-sm-6 col-xs">
+                                   <div class="over-item">
+                                       <div class="over-item__image">
+                                           <img src="/img/overview/overview_3.png" class=" over-item__image__item img-fluid" title="over-3" alt="over_3">
+                                       </div>
+                                       <h4 class="over-item__heading">
+                                           Lovely design
+                                       </h4>  
+                                       <p class="over-item__info">
+                                           Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                       </p>
+                                   </div>
+                           </div>
+                           <div class="col-md-3 col-sm-6 col-xs">
+                                   <div class="over-item">
+                                       <div class="over-item__image">
+                                           <img src="/img/overview/overview_4.png" class=" over-item__image__item img-fluid" title="over-4" alt="over_4">
+                                       </div>
+                                       <h4 class="over-item__heading">
+                                           Mobile Friendly
+                                       </h4>  
+                                       <p class="over-item__info">
+                                           Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                       </p>
+                                   </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               </overview>
+              
+              
+           <detail class="detail">
+               <div class="detail-wrapper">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-6">
+                                   <div class="info-image">
+                                       <div class="info-image__block detail-image__block">
+                                       <img src="/img/detail/detail_1.png" class="image-poster__item detail-image__item img-fluid" title="info image" alt="phones info-image">
+                                       </div>
+                                   </div>
+                           </div>
+ 
+                           <div class="detail-info col-md">
+                                   <div class="detail-info-heading">
+                                    <h5 class="h5-standart h5-details">
+                                        dip into the details
                                     </h5>
-                                    <h1 class="info-cont__title">Carefully crafted and beautiful landing page.</h1>
-                                    <p class="info-cont__about">
-                                        Etiam ullamcorper et turpis eget hendrerit. 
-                                        Praesent varius risus mi, at elementum magna ultricies accumsan. 
-                                        Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
+                                    <h2 class="h2-details">Beautiful on every device</h2>
+                                    <img class="border-dashed" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
+                                    <p class="details-info__about">
+                                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
+                                        Morbi accumsan ipsum velit. 
+                                        Nam nec tellus a odio tincidunt auctor a ornare odio. 
+                                        Sed non &#8239;&#8288;&#8239;mauris vitae erat consequat auctor eu in elit.
                                     </p>
-                                    <div class="info-cont__buttons">
-                                        <button type="button" class="info-cont__buttons__primary btn btn-primary">DOWNLOAD NOW</button>
-                                        <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">VIEW FEATURES</button>
-                                    </div>
-                                        
-                                    
-                            </div>
-                        </div>
-                        <div class="info-image col-md">
-                            <div class="info-image__block">
-                            <img src="/img/inform/inform_1.png" class="info-image__item img-fluid" title="info image" alt="phones info-image">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </inform>
-        </div>
-        
-        <div class="main flex-fill">
-            <overview class="overview">
-                <div class="overview-wrapper">
-                    <div class="overview-cont container">
-                        <div class="overview-info col">
-                            <h5 class="h5-standart h5-overview">
-                                product overview
-                            </h5>
-                            <h2 class="h2-overview">List of amazing features</h2>
-                            <img class="border-dashed" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
-                        </div>
-                        <div class="over-row row">
-                            <div class="col-md-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_1.png" class=" over-item__image__item img-fluid" title="over-1" alt="over_1">
-                                        </div>
-                                        <h4 class="over-item__heading"> 
-                                            Responsive
-                                        </h4>   
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
-                                    </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_2.png" class=" over-item__image__item img-fluid" title="over-2" alt="over_2">
-                                        </div>
-                                        <h4 class="over-item__heading"> 
-                                            Customizable
-                                        </h4>   
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
-                                    </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_3.png" class=" over-item__image__item img-fluid" title="over-3" alt="over_3">
-                                        </div>
-                                        <h4 class="over-item__heading"> 
-                                            Lovely design
-                                        </h4>   
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
-                                    </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_4.png" class=" over-item__image__item img-fluid" title="over-4" alt="over_4">
-                                        </div>
-                                        <h4 class="over-item__heading"> 
-                                            Mobile Friendly
-                                        </h4>   
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
-                                    </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </overview>
-            
-            
-            <detail class="detail">
-                <div class="detail-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="blocks">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-md">
-                                <div class="blocks">
-                                    <h5 class="h5-standart">
-                                        dip into the details
-                                    </h5>
-                                    <h2>List of amazing features</h2>
-                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </detail>
-            
-            <customise class="customise">
-                <div class="customise-wrapper">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="blocks">
-                                    <h5 class="h5-standart">
-                                        dip into the details
-                                    </h5>
-                                    <h2>List of amazing features</h2>
-                                </div>
-                            </div>
-                            <div class="col-md">
-                                <div class="blocks">
-                
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </customise>
-            
-            
-            
-            <feedbacks class="feedbacks">
-                <div class="feed-wrapper">
-                    <div class="container">
-                        <div class="blocks">
-                            <div class="col">
-                                <div class="blocks">
-                                    <h5 class="standart">
-                                        quality has it's price
-                                    </h5>
-                                    <h2 class="overview-heading">Pricing & Plans</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </feedbacks>
-            <rehearsal class="rehearsal">
-                <div class="rehearsal-wrapper">
-                    <div class="rehearsal-cont container">
-                        <div class="row">
-                            <div class="rehearsal-heading col-xl-7 col-lg-12">
-                                <h2 class="rehearsal-heading__text"><b>Like what you see? </b>Get this great theme now!</h2>
-                            </div>
-                            <div class="rehearsal-buttons col">
-                                <button type="button" class="info-cont__buttons__primary btn btn-primary">VIEW FEATURES</button>
-                                            <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">DOWNLOAD NOW</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </rehearsal>
-            
-            <pricing class="pricing">
-                <div class="pricing-wrapper">
-                    <div class="container">
-                        <div class="blocks">
-                            <div class="col">
-                                <h5 class="h5-standart">
-                                    quality has it's price
-                                </h5>
-                                <h2>Pricing & Plans</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </pricing>
-            
-            <contact class="contact">
-                <div class="contact-wrapper">
-                    <div class="container">
-                        <div class="blocks">
-                            <h5 class="h5-standart">
-                                stay in touch
-                            </h5>
-                            <h2>Contact us</h2>
-                        </div>
-                    </div>
-                </div>
-            </contact>
-            
-            <map class="map" id="map" >
-                <div class="map-wrapper" style="width: 100%; overflow: hidden; height: 460px;">
-                    <iframe class="map-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1345.9240863726595!2d-80.18860191154239!3d25.764412717910595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bb65e3b%3A0x780f7212865c671b!2sThe%20Hackett%20Group!5e0!3m2!1sen!2sua!4v1634649273467!5m2!1sen!2sua"
-                        width="100%"
-                        height="760"
-                        style="border:0; margin-top: -150px; margin-bottom: -150px;"
-                        allowfullscreen=""
-                        loading="lazy">
-                    </iframe>
-                </div>
-            </map>
-        </div>
-        
-        <footer class="footer sticky-bottom">
-            <div class="footer-wrapper  sticky-bottom">
-                <div class="footer-cont container">
-                        <div class="footer-icons-row centered col">
-                            <a href="#"><i class="fa fa-first fa-behance"></i></a>
-                            <a href="#"><i class="fa fa-second fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-twitter__cust"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-last fa-linkedin"></i></a>
-                        </div>
-                        <div class="footer-copyrights col centered">
-                            <p class="footer-copyrights__item">
-                                Copyright &copy;2014 lucid onepage theme 
-                            </p>
-                        </div>
-                </div>
-            </div>
-        </footer>
-        
-    </div>
-
-
-
-
-
-
-    <script src="/js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/f2c150d561.js" crossorigin="anonymous"></script>
+                                   </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </detail>
+          
+           <customise class="customise">
+               <div class="customise-wrapper">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-md-6">
+                               <div class="blocks">
+                                   <h5 class="h5-standart">
+                                       dip into the details
+                                   </h5>
+                                   <h2>List of amazing features</h2>
+                               </div>
+                           </div>
+                           <div class="col-md">
+                               <div class="blocks">
+                                   <div class="info-image col-md">
+                                       <div class="info-image__block">
+                                       <img src="/img/customise/customise_1.png" class="info-image__item img-fluid" title="info image" alt="phones info-image">
+                                       </div>
+                                   </div>
+              
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </customise>
+          
+          
+          
+           <feedbacks class="feedbacks">
+               <div class="feed-wrapper">
+                   <div class="container">
+                       <div class="blocks">
+                           <div class="col">
+                               <div class="blocks">
+                                   <h5 class="standart">
+                                       quality has it's price
+                                   </h5>
+                                   <h2 class="overview-heading">Pricing & Plans</h2>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </feedbacks>
+           <rehearsal class="rehearsal">
+               <div class="rehearsal-wrapper">
+                   <div class="rehearsal-cont container">
+                       <div class="row">
+                           <div class="rehearsal-heading col-xl-7 col-lg-12">
+                               <h2 class="rehearsal-heading__text"><b>Like what you see? </b>Get this great theme now!</h2>
+                           </div>
+                           <div class="rehearsal-buttons col">
+                               <button type="button" class="info-cont__buttons__primary btn btn-primary">VIEW FEATURES</button>
+                                           <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">DOWNLOAD NOW</button>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </rehearsal>
+          
+           <pricing class="pricing">
+               <div class="pricing-wrapper">
+                   <div class="container">
+                       <div class="blocks">
+                           <div class="col">
+                               <h5 class="h5-standart">
+                                   quality has it's price
+                               </h5>
+                               <h2>Pricing & Plans</h2>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </pricing>
+          
+           <contact class="contact">
+               <div class="contact-wrapper">
+                   <div class="container">
+                       <div class="blocks">
+                           <h5 class="h5-standart">
+                               stay in touch
+                           </h5>
+                           <h2>Contact us</h2>
+                       </div>
+                   </div>
+               </div>
+           </contact>
+          
+           <map class="map" id="map" >
+               <div class="map-wrapper" style="width: 100%; overflow: hidden; height: 460px;">
+                   <iframe class="map-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1345.9240863726595!2d-80.18860191154239!3d25.764412717910595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bb65e3b%3A0x780f7212865c671b!2sThe%20Hackett%20Group!5e0!3m2!1sen!2sua!4v1634649273467!5m2!1sen!2sua"
+                       width="100%"
+                       height="760"
+                       style="border:0; margin-top: -150px; margin-bottom: -150px;"
+                       allowfullscreen=""
+                       loading="lazy">
+                   </iframe>
+               </div>
+           </map>
+       </div>
+      
+       <footer class="footer sticky-bottom">
+           <div class="footer-wrapper  sticky-bottom">
+               <div class="footer-cont container">
+                       <div class="footer-icons-row centered col">
+                           <a href="#"><i class="fa fa-first fa-behance"></i></a>
+                           <a href="#"><i class="fa fa-second fa-dribbble"></i></a>
+                           <a href="#"><i class="fa fa-twitter fa-twitter__cust"></i></a>
+                           <a href="#"><i class="fa fa-facebook"></i></a>
+                           <a href="#"><i class="fa fa-last fa-linkedin"></i></a>
+                       </div>
+                       <div class="footer-copyrights col centered">
+                           <p class="footer-copyrights__item">
+                               Copyright &copy;2014 lucid onepage theme
+                           </p>
+                       </div>
+               </div>
+           </div>
+       </footer>
+      
+   </div>
+ 
+ 
+ 
+ 
+ 
+ 
+   <script src="/js/script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://kit.fontawesome.com/f2c150d561.js" crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
-
-        <!--<div class="nav">
-            <div class="container">
-                <div class="row">
-                    <div class="col-2">
-                        <div class="block">
-                            <a href="#" class="logo-title">LUCID</a>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="block">
-                            <button class="navbar-toggler d-lg-none btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                            aria-expanded="false" aria-label="Toggle navigation"></button>
-                            <nav class="navbar navbar-expand-sm bg-none navbar-expand-lg">
-                                <ul class="navbar-nav ml-auto collapse navbar-collapse">
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Home</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Featurtes</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Testmonials</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Pricing</a>
-                                  </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="#">Contacts</a>
-                                  </li>
-                                </ul>
-                              </nav>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>-->
-    <!--<div class="container">
-                <div class="col-3">
-                    <div class="block">
-                        <div class="logo">
-                            <div class="logo-title">
-                                <a href="#">LUCID</a>
-                            </div>
-                            <div class="logo-info">
-                                <a href="#" class="">onepage<br>theme</a>
-                            </div>
-                            
-                        
-                        </div>
-                        
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="block">
-                        NAVIG
-                    </div>
-                </div> 
-    </div>
+ 
+ 
+ 
+ 
+       <!--<div class="nav">
+           <div class="container">
+               <div class="row">
+                   <div class="col-2">
+                       <div class="block">
+                           <a href="#" class="logo-title">LUCID</a>
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="block">
+                           <button class="navbar-toggler d-lg-none btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                           aria-expanded="false" aria-label="Toggle navigation"></button>
+                           <nav class="navbar navbar-expand-sm bg-none navbar-expand-lg">
+                               <ul class="navbar-nav ml-auto collapse navbar-collapse">
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">Home</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">Featurtes</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">About</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">Testmonials</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">Pricing</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a class="nav-link" href="#">Contacts</a>
+                                 </li>
+                               </ul>
+                             </nav>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>-->
+   <!--<div class="container">
+               <div class="col-3">
+                   <div class="block">
+                       <div class="logo">
+                           <div class="logo-title">
+                               <a href="#">LUCID</a>
+                           </div>
+                           <div class="logo-info">
+                               <a href="#" class="">onepage<br>theme</a>
+                           </div>
+                          
+                      
+                       </div>
+                      
+                   </div>
+               </div>
+               <div class="col">
+                   <div class="block">
+                       NAVIG
+                   </div>
+               </div>
+   </div>
 <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: gray">
-                <div class="col-1">
-                    <a class="navbar-brand" href="#">LUCID</a>
-                </div>
-                <button class="navbar-toggler d-lg-none btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation"></button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Testmonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Testmonials</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Testmonials</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+           <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: gray">
+               <div class="col-1">
+                   <a class="navbar-brand" href="#">LUCID</a>
+               </div>
+               <button class="navbar-toggler d-lg-none btn-primary" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                   aria-expanded="false" aria-label="Toggle navigation"></button>
+               <div class="collapse navbar-collapse" id="collapsibleNavId">
+                   <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                       <li class="nav-item active">
+                           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Link</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Testmonials</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Testmonials</a>
+                       </li>
+                       <li class="nav-item">
+                           <a class="nav-link" href="#">Testmonials</a>
+                       </li>
+                   </ul>
+               </div>
+           </nav>
 -->
+ 
+

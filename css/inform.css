@@ -5,7 +5,7 @@
 
 .info-cont__heading {
   margin-top: -1px !important;
-  margin-bottom: 20px !important;
+  margin-bottom: 21px !important;
 }
 
 .info-cont__title {
@@ -13,9 +13,9 @@
   line-height: 48px;
   font-weight: 600;
   text-transform: none;
-  letter-spacing: normal;
+  letter-spacing: 0.0003em;
   color: #ffffff;
-  margin-bottom: 24px;
+  margin-bottom: 23px;
 }
 
 .info-cont__about {

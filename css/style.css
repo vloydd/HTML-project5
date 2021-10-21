@@ -9945,6 +9945,8 @@ html, body {
   font-size: 16.2px !important;
   min-height: 100%;
   transition: all 0.7s ease-out;
+  width: 100%;
+  max-width: 100%;
 }
 
 a {
@@ -9964,7 +9966,7 @@ h2 {
   font-size: 36px !important;
   font-weight: 600 !important;
   text-transform: none;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.01em;
   color: #1a1a1a !important;
   margin: 0 !important;
 }
@@ -10014,6 +10016,14 @@ h5 {
   border-bottom-width: thick;
 }
 
+.image-poster {
+  max-height: 100%;
+}
+
+.image-poster__item {
+  vertical-align: sub;
+}
+
 .block {
   background-color: transparent;
   border: 2px solid #ffffff;
@@ -10025,7 +10035,7 @@ h5 {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 hr {
@@ -10089,16 +10099,12 @@ hr {
   color: #ffffff !important;
 }
 
-.border-dashed {
-  margin-bottom: -20px;
-}
-
 .overview-wrapper, .detail-wrapper, .pricing-wrapper {
   background-color: #ffffff;
 }
 
 .overview-wrapper, .detail-wrapper, .customise-wrapper, .feedbacks-wrapper, .pricing-wrapper, .contact-wrapper {
-  margin-bottom: 5rem;
+  margin-bottom: 5.05rem;
 }
 
 .customise-wrapper {
