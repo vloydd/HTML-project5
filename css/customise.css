@@ -1,0 +1,37 @@
+.customise-info-heading {
+  margin-top: 129px !important;
+}
+
+.h2-customise {
+  margin-top: 11px !important;
+  letter-spacing: -0.01em !important;
+  margin-bottom: 13px !important;
+  font-size: 37px !important;
+}
+
+.customise-info__about {
+  margin-top: 14px;
+  letter-spacing: 0.0143em;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.customise-info {
+  padding-right: 0 !important;
+}
+
+.customise-image {
+  padding: 0 !important;
+}
+
+.customise-image__item {
+  margin-top: 33px;
+  margin-left: -29px;
+  vertical-align: sub;
+}
+
+@media (min-width: 1220px) {
+  .customise-image__item {
+    max-width: 718px !important;
+  }
+}

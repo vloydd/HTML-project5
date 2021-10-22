@@ -13,4 +13,37 @@ $browngray: #ededed;
     overflow: hidden;
     background-size: cover;
     background-position: center center;
+    height: 640px;
+}
+.feed-info {
+    text-align: center;
+}
+.h2-feed {
+    color: $white !important;
+}
+.h5-feed {
+    margin-top: 59px!important;
+}
+.feed-item__border {
+    margin-bottom: -8px;
+}
+.feed-carousel {
+    text-align: center;
+}
+.cite {
+    margin-bottom: 70px;
+}
+.feed-carousel-item__cite__item i {
+    font-size: 24px;
+    font-weight: 400;
+    color: $white;
+    padding: 0;
+    width: 100%;
+}
+.feed-comments {
+    padding: 0!important;
+    margin-top: 79px;
+}
+.feed-indicators {
+    margin-top: 80px;
 }

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 $lightblue: #008ed6;
 $white: #ffffff;
 $lightgray: #999999;
@@ -6,6 +7,11 @@ $dark: #15141a;
 $darkgray: #444348;
 $black: #1a1a1a;
 $browngray: #ededed;
+.navbar-brand b {
+    font-family: 'Inconsolata', sans-serif!important;
+    font-weight: 700;
+    font-size: 27px;
+}
 .headi {
     background-image: url('/img/header/header_bg.png');
     overflow: hidden;
@@ -25,15 +31,22 @@ $browngray: #ededed;
 .nav-link {
     padding-right:  0px!important;
     padding-left: 0px!important;
+    margin-top: -5px;
     font-size: 16px!important;
     font-weight: 800;
-    letter-spacing: -0.0015em;
+    letter-spacing: -0.001em;
 }
 .nav-item {
     margin-right: 21.5px;   
 }
 .nav-item:last-child {
     margin-right: 0!important;
+}
+.active {
+    // font-size: large;
+}
+.nav-item:hover::after {
+    content: url('/img/border-dashed.png');
 }
 .head-navbar {
     padding: 0px!important;
@@ -122,7 +135,7 @@ $browngray: #ededed;
     letter-spacing: 0.6px;
 }
 .logo-info {
-    opacity: 0.3;
+    opacity: 0.5;
     font-family: 'Source Sans Pro';
     font-size: 9px; 
     font-weight: 400;
