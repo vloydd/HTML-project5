@@ -3,7 +3,7 @@
   overflow: hidden;
   background-size: cover;
   background-position: center center;
-  height: 640px;
+  min-height: 640px;
 }
 
 .feed-info {
@@ -15,7 +15,7 @@
 }
 
 .h5-feed {
-  margin-top: 59px !important;
+  margin-top: 61px !important;
 }
 
 .feed-item__border {
@@ -30,12 +30,48 @@
   margin-bottom: 70px;
 }
 
-.feed-carousel-item__cite__item i {
+.feed-carousel-item {
+  margin-bottom: 110px;
+  color: #ffffff;
+}
+
+.feed-carousel-item__cite__item {
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
   padding: 0;
   width: 100%;
+  margin-bottom: 23px;
+  margin-left: -1px;
+  font-style: italic;
+  margin-top: 3px;
+  text-align: start;
+  letter-spacing: 0em;
+  line-height: 32px;
+}
+
+.feed-carousel-item__author {
+  text-align: start;
+  margin-left: 15px;
+}
+
+.feed-carousel-item__author_pos-img {
+  margin-right: 24px;
+}
+
+.feed-carousel-item__author__image {
+  margin-right: 24px;
+}
+
+.feed-carousel-item__author__name {
+  margin-bottom: 0;
+  margin-top: 6px;
+}
+
+.feed-carousel-item__author__pos {
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 9px;
 }
 
 .feed-comments {
@@ -45,4 +81,34 @@
 
 .feed-indicators {
   margin-top: 80px;
+}
+
+.carousel-indicators li {
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 50%;
+  background-color: transparent !important;
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  margin-top: auto;
+  margin-bottom: auto;
+  margin: auto 10px !important;
+}
+
+.carousel-indicators .active {
+  background-color: #ffffff !important;
+  width: 14px !important;
+  height: 14px !important;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 0;
+}
+
+.feed-carousel-item__author_image__item {
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .feed-carousel-item__cite__item {
+    text-align: center !important;
+  }
 }
