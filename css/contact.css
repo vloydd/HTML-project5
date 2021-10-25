@@ -1,3 +1,19 @@
 .contact-wrapper {
-  height: 715px;
+  min-height: 715px;
+  background-color: #ededed;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.h5-cont {
+  padding-top: 56px !important;
+  margin-bottom: 11px !important;
+}
+
+.h2-cont {
+  margin-bottom: 11px !important;
+  color: #1a1a1a !important;
 }

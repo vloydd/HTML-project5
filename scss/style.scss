@@ -115,7 +115,12 @@ hr {
    // border-top: 1px solid rgba(0,0,0,.1);
     border-top-color: $browngray!important;
 }
-.main {
+button {
+    text-transform: uppercase;
+}
+button:hover {
+    transition: 1s;
+    box-shadow: 10px 5px 5px rgba(0,142,214, 0.5);
 }
 .inform {
     min-height: 480px;
@@ -241,6 +246,7 @@ p {
 .customise-wrapper {
     background-color: $easybrown;
     padding-bottom: 17px;
+    min-height: 526px!important;
 }
 .contact-wrapper {
     background-color: $browngray;

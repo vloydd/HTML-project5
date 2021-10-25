@@ -50,9 +50,12 @@
   line-height: 32px;
 }
 
+.feed-carousel-item__author__row {
+  margin: 0 !important;
+}
+
 .feed-carousel-item__author {
   text-align: start;
-  margin-left: 15px;
 }
 
 .feed-carousel-item__author_pos-img {
@@ -110,5 +113,13 @@
 @media (max-width: 767px) {
   .feed-carousel-item__cite__item {
     text-align: center !important;
+  }
+
+  .feed-carousel-item__author {
+    text-align: center;
+  }
+
+  .feed-carousel-item__author__image {
+    margin: 0 auto;
   }
 }

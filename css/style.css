@@ -10495,6 +10495,15 @@ hr {
   border-top-color: #ededed !important;
 }
 
+button {
+  text-transform: uppercase;
+}
+
+button:hover {
+  transition: 1s;
+  box-shadow: 10px 5px 5px rgba(0, 142, 214, 0.5);
+}
+
 .inform {
   min-height: 480px;
 }
@@ -10625,6 +10634,7 @@ p {
 .customise-wrapper {
   background-color: #f2f2f2;
   padding-bottom: 17px;
+  min-height: 526px !important;
 }
 
 .contact-wrapper {
