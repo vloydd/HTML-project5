@@ -81,7 +81,6 @@
   height: 152px;
   display: flex;
   flex-direction: column;
-  position: relative;
   width: 100%;
 }
 
@@ -93,6 +92,8 @@
 
 .price-table__item__price.active {
   background-color: #008ed6 !important;
+  margin-left: -1px;
+  margin-top: -1px;
 }
 
 .price-table__item__price__item {
@@ -100,6 +101,7 @@
 }
 
 .price-table__item__price__numb {
+  position: relative;
   color: #1a1a1a !important;
   font-size: 59px;
   font-weight: 600;
@@ -111,8 +113,8 @@
 .price-table__item__price__numb::after {
   content: "$";
   position: absolute;
-  top: 37px;
-  left: 93px;
+  top: 11px;
+  left: -7px;
   font-size: 28px;
 }
 
@@ -122,6 +124,7 @@
 }
 
 .price-table__item__price__numb__first {
+  position: relative;
   color: #1a1a1a !important;
   font-size: 59px;
   font-weight: 600;
@@ -133,8 +136,8 @@
 .price-table__item__price__numb__first::after {
   content: "$";
   position: absolute;
-  top: 37px;
-  left: 110px;
+  top: 11px;
+  left: 9px;
   font-size: 28px;
 }
 
@@ -153,7 +156,7 @@
 }
 
 .price-table__item__about {
-  height: 271px;
+  min-height: 271px;
 }
 
 .price-table__item__about__item {
@@ -187,7 +190,16 @@
 }
 
 .price-table__item__price.active {
+  position: relative;
   background-color: #008ed6 !important;
+}
+
+.price-table__item__price.active::after {
+  content: "$";
+  position: absolute;
+  top: 11px;
+  left: 9px;
+  font-size: 28px;
 }
 
 .price-table__item__about__link {

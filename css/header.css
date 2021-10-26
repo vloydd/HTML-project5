@@ -166,3 +166,16 @@
     text-align: center;
   }
 }
+@media (max-width: 991px) {
+  .nav-link {
+    padding: 5px 0 !important;
+  }
+
+  .nav-link:hover {
+    content: none;
+  }
+
+  .nav-link.active::after {
+    content: none;
+  }
+}

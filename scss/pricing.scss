@@ -79,7 +79,6 @@ $browngray: #ededed;
     height: 152px;
     display: flex;
     flex-direction: column;
-    position: relative;
     width: 100%;
     .active, &:hover {
         transition: 1s;
@@ -88,13 +87,16 @@ $browngray: #ededed;
     }
 }
 .price-table__item__price.active {
-    background-color: $lightblue!important;   
+    background-color: $lightblue!important;  
+    margin-left: -1px;
+    margin-top: -1px;
 }
 
 .price-table__item__price__item {
     margin: auto;
 }
 .price-table__item__price__numb {
+    position: relative;
     color: $black!important;
     font-size: 59px;
     font-weight: 600;
@@ -105,8 +107,8 @@ $browngray: #ededed;
     &::after {
         content: '$';
         position: absolute;
-        top: 37px;
-        left: 93px;
+        top: 11px;
+        left: -7px;
         font-size: 28px;
     }
     &:hover {
@@ -115,6 +117,7 @@ $browngray: #ededed;
     }
 }
 .price-table__item__price__numb__first {
+    position: relative;
     color: $black!important;
     font-size: 59px;
     font-weight: 600;
@@ -124,8 +127,8 @@ $browngray: #ededed;
     &::after {
         content: '$';
         position: absolute;
-        top: 37px;
-        left: 110px;
+        top: 11px;
+        left: 9px;
         font-size: 28px;
     }
     &:hover {
@@ -143,7 +146,7 @@ $browngray: #ededed;
 }
 
 .price-table__item__about  {
-    height: 271px;
+    min-height: 271px;
 }
 .price-table__item__about__item {
     margin: 0;
@@ -171,7 +174,15 @@ $browngray: #ededed;
     transition: 1s;
 }
 .price-table__item__price.active {
+    position: relative;
     background-color: $lightblue!important;
+    &::after {
+        content: '$';
+        position: absolute;
+        top: 11px;
+        left: 9px;
+        font-size: 28px;
+    }
 }
 .price-table__item__about__link {
     color: $lightblue!important;

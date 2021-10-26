@@ -10658,9 +10658,10 @@ p {
 }
 
 .rehearsal-heading__text {
+  margin-left: -1px !important;
   margin-top: 1px !important;
   font-weight: 300 !important;
-  letter-spacing: 0.001em;
+  letter-spacing: 0.002em;
 }
 
 .rehearsal-heading__text b {
@@ -10676,6 +10677,7 @@ p {
   .rehearsal-heading__text {
     text-align: center;
     margin-bottom: 20px !important;
+    font-size: calc(30px + 6 * (100vw - 320px) / 1600) !important;
   }
 
   .rehearsal-buttons {
