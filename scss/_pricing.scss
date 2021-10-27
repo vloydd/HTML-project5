@@ -1,194 +1,175 @@
-$grid-columns: 12;
-$grid-gutter-width: 30px;
-$lightblue: #008ed6;
-$white: #ffffff;
-$lightgray: #999999;
-$easybrown: #f2f2f2;
-$dark: #15141a;
-$darkgray: #444348;
-$black: #1a1a1a;
-$browngray: #ededed;
-
-.h5-pricing {
-}
-.h2-pricing {
-    margin-bottom: 11px!important;
-    letter-spacing: 0.0045em !important;
-    color: $black!important;
-}
 .pricing-wrapper {
     margin-top: 57px;
     min-height: 723px;
-}
-.pricing-info {
-    text-align: center;
-}
-.pricing-info-header {
-    margin-bottom: 65px;
-}
-.pricing-table__item, .price-table__item__header, .price-table__item__about {
-    color: $black!important;
-}
-.pricing-table__item ul {
-    padding: 0!important;
-    margin-bottom: 0!important;
-}
-.pricing-table__item {
-    text-align: center;
-    padding: 0 14px!important;
-}
-.price-table__item li {
-    list-style: none;
-}
-
-.price-table__item__header, .price-table__item__price, .price-table__item__about, .price-table__item__order {
-    border: 1px solid #e0e0e0;
-}
-.price-table__item__header.active {
-    border-bottom: none;
-}
-.price-table__item__price.active {
-    border: none;
-}
-.price-table__item__header {
-    width: 100%;
-    height: 71px;
-    display: flex;
-    text-transform: uppercase; 
-    :hover {
-        transition: 1s;
-        color: $lightblue!important;
-    }
-    .active {
-        color: $lightblue!important;
-        &:hover {
-            transition: 1s;
-            color: $black!important;
+    .pricing-cont {
+        .pricing-info {
+            text-align: center;
+            .pricing-info-header {
+                margin-bottom: 61px;
+                .h2-pricing { 
+                    margin-top: 10px; 
+                    margin-bottom: 15px;
+                    color: $black;
+                    letter-spacing: -0.01em;
+                }
+            }
         }
-    } 
-}
-.price-table__item__header__type {
-    font-size: 25px;
-    font-weight: 700;
-    margin: auto;
-    letter-spacing: -0.015em;
-    padding-right: 2px!important;
-    padding-top: 2px;
-}
-.price-table__item__price{
-    height: 152px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    .active, &:hover {
-        transition: 1s;
-        background-color: $lightblue;
-        color: $white!important;
-    }
-}
-.price-table__item__price.active {
-    background-color: $lightblue!important;  
-    margin-left: -1px;
-    margin-top: -1px;
-}
-
-.price-table__item__price__item {
-    margin: auto;
-}
-.price-table__item__price__numb {
-    position: relative;
-    color: $black!important;
-    font-size: 59px;
-    font-weight: 600;
-    margin-top: -10px;
-    margin-left: 8px;
-    margin-bottom: 0;
-    //margin-bottom: 0;
-    &::after {
-        content: '$';
-        position: absolute;
-        top: 11px;
-        left: -7px;
-        font-size: 28px;
-    }
-    &:hover {
-        transition: 1s;
-        color: $white!important;    
-    }
-}
-.price-table__item__price__numb__first {
-    position: relative;
-    color: $black!important;
-    font-size: 59px;
-    font-weight: 600;
-    margin-top: -10px;
-    margin-left: 8px;
-    margin-bottom: 0;
-    &::after {
-        content: '$';
-        position: absolute;
-        top: 11px;
-        left: 9px;
-        font-size: 28px;
-    }
-    &:hover {
-        transition: 1s;
-        color: $white!important;    
-    }
-}
-.price-table__item__price__text {
-    margin-top: 0px;
-    font-weight: 400;
-    font-size: 18px;
-    letter-spacing: 0.01em;
-    margin-bottom: 0;   
-    line-height: 18px;
-}
-
-.price-table__item__about  {
-    min-height: 271px;
-}
-.price-table__item__about__item {
-    margin: 0;
-    margin-top: 44px;
-    margin: 44px 0px 0 4px!important;
-    padding: 0px 30px;
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0.017em;
-    line-height: 26px; 
-    color: $lightgray!important;
-}
-.price-table__item__about__button__outline__secondary {
-    color: $lightblue!important;
-}
-.price-table__item__about__button  {
-    margin-top: 40px;
-}
-.price-table__item__about__button__outline__secondary:hover {
-    transition: 1s;
-    background-color: $lightblue!important;
-    color: white!important;
-}
-.price-table__item__about__button {
-    transition: 1s;
-}
-.price-table__item__price.active {
-    position: relative;
-    background-color: $lightblue!important;
-    &::after {
-        content: '$';
-        position: absolute;
-        top: 11px;
-        left: 9px;
-        font-size: 28px;
-    }
-}
-.price-table__item__about__link {
-    color: $lightblue!important;
-    &:hover {
-        transition: 1s;
-        text-shadow: 5px 5px 10px $lightblue;
-        text-decoration: none;
+        .pricing-table__row {
+            .pricing-table__item {
+                text-align: center;
+                padding: 0 14px;
+                color: $black;
+                & ul {
+                    padding: 0;
+                    margin-bottom: 0;
+                }
+                & li {
+                    list-style: none;
+                }
+                &.active {}
+                .price-table__item__header {
+                    width: 100%;
+                    height: 71px;
+                    display: flex;
+                    text-transform: uppercase; 
+                    border: 1px solid $priceborder;
+                    color: $black;
+                    &:hover {
+                        transition: 1s;
+                        color: $lightblue;
+                    }
+                    &.active {
+                        border-bottom: none;
+                        color: $lightblue;
+                        &:hover {
+                            transition: 1s;
+                            color: $black;
+                        }
+                    }
+                    .price-table__item__header__type {
+                        font-size: 25px;
+                        font-weight: 700;
+                        margin: auto;
+                        letter-spacing: -0.015em;
+                        padding-right: 2px;
+                        padding-top: 2px;
+                        &.active {}
+                    }
+                }
+                .price-table__item__price {
+                    border: 1px solid $priceborder;
+                    height: 152px;
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    margin: auto;
+                    .active, &:hover {
+                        transition: 1s;
+                        background-color: $lightblue;
+                        color: $white; 
+                    }
+                    &.active {
+                        background-color: $lightblue; 
+                        margin-top: -1px;
+                        margin-left: -1px;
+                        &::after {
+                        } 
+                    }
+                    .price-table__item__price__item {
+                        margin: auto;
+                        &.active {}
+                        .price-table__item__price__numb,.active {
+                            position: relative;
+                            color: $black;
+                            font-size: 59px;
+                            font-weight: 600;
+                            margin-top: -10px;
+                            margin-left: 8px;
+                            margin-bottom: 0;
+                            //margin-bottom: 0;
+                            &::after {
+                                content: '$';
+                                position: absolute;
+                                top: -8px;
+                                left: -7px;
+                                font-size: 28px;
+                            }
+                            &:hover {
+                                transition: 1s;
+                                color: $white;    
+                            }
+                            &.active {
+                                color: $white;
+                                &::after {
+                                    left: -2px;
+                                }
+                            }
+                        }
+                        .price-table__item__price__numb__first {
+                            position: relative;
+                            color: $black;
+                            font-size: 59px;
+                            font-weight: 600;
+                            margin-top: -10px;
+                            margin-left: 8px;
+                            margin-bottom: 0;
+                            &::after {
+                                content: '$';
+                                position: absolute;
+                                top: -8px;
+                                left: 9px;
+                                font-size: 28px;
+                            }
+                            &:hover {
+                                transition: 1s;
+                                color: $white;    
+                            }
+                        }
+                        .price-table__item__price__text {
+                            margin-top: 0px;
+                            font-weight: 400;
+                            font-size: 18px;
+                            letter-spacing: 0.01em;
+                            margin-bottom: 0;   
+                            line-height: 18px;
+                            &.active::after {
+                                content:none;
+                            }
+                        }
+                    }
+                }
+                .price-table__item__about {
+                    border: 1px solid $priceborder;
+                    color: $black;
+                    min-height: 271px;
+                    .price-table__item__about__item {
+                        margin: 0;
+                        margin-top: 44px;
+                        margin: 44px 0px 0 4px;
+                        padding: 0px 30px;
+                        font-size: 18px;
+                        font-weight: 400;
+                        letter-spacing: 0.017em;
+                        line-height: 26px; 
+                        color: $lightgray;
+                        .price-table__item__about__link {
+                            color: $lightblue;
+                        }
+                    }
+                    .price-table__item__about__button {
+                        margin-top: 40px;
+                        transition: 1s;
+                    }
+                    .price-table__item__about__button__outline__secondary{
+                        color: $lightblue;
+                    }
+                    &:hover {
+                        transition: 1s;
+                        background-color: $lightblue;
+                        color: $white;
+                    }
+                }
+            }   
+        }
     }
 }

@@ -11,59 +11,53 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/inform.css">
-    <link rel="stylesheet" type="text/css" href="css/detail.css">
-    <link rel="stylesheet" type="text/css" href="css/customise.css">
-    <link rel="stylesheet" type="text/css" href="css/overview.css">
-    <link rel="stylesheet" type="text/css" href="css/feedbacks.css">
-    <link rel="stylesheet" type="text/css" href="css/pricing.css">
-    <link rel="stylesheet" type="text/css" href="css/contact.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-   </head>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
 <body>
     <div id="wrapper" class="d-flex flex-column min-vh-100">
         <div class="headi">
             <header class="header">
-                <div class="head-container container">
+                <div class="head-cont container">
 
 
-                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-                        <div class="nav-lgo col-3">
-                            <a class="navbar-brand mr-0 mr-sm-1" href="#">LU<lt class="logofix">CI</lt><b>D</b></a>
-                            <div class="logo-info mr-auto">
-                                <p class="logo-info">onepage<br>theme</p>
+                    <nav class="head-navb navbar navbar-expand-lg bg-transparent">
+                        <div class="head-navb__lgo row col-lg-3 col-8">
+                            <a class="head-navb__lgo__br navbar-brand mr-0 mr-sm-1" href="#">LUC&#8288;&#8288;&#8288;I<b>&#8288;D</b></a>
+                            <div class="head-navb__info d-flex mr-auto">
+                                <p class="head-navb__info__txt">onepage<br>theme</p>
+                            </div>
                         </div>
-                    </div>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Testimonials</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                        </div>  
+                        <button class="head-navb__toggler navbar-toggler btn-outline-dark" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"></button>
+                        <div class="head-menu collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                            <ul class="head-menu__list navbar-nav d-flex">
+                                <li class="head-menu__list__item nav-item active">
+                                    <a class="head-menu__list__item__link nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="head-menu__list__item nav-item">
+                                    <a class="head-menu__list__item__link nav-link" href="#">Features</a>
+                                </li>
+                                <li class="head-menu__list__item nav-item">
+                                    <a class="head-menu__list__item__link nav-link" href="#">About</a>
+                                </li>
+                                <li class="head-menu__list__item nav-item">
+                                    <a class="head-menu__list__item__link nav-link" href="#">Testimonials</a>
+                                </li>
+                                <li class="head-menu__list__item nav-item">
+                                    <a class="head-menu__list__item__link nav-link" href="#">Pricing</a>
+                                </li>
+                                <li class="head-menu__list__item nav-item">
+                                    <a class="head-menu__list__item__link nav-link" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
                     </nav>
 
 
-                    <nav class="head-navbar navbar navbar-expand-lg navbar-dark">
+                    <!--<nav class="head-navbar navbar navbar-expand-lg navbar-dark">
                         <div class="nav-lgo col-3 col-md-2">
                                 <a class="navbar-brand mr-0 mr-sm-1" href="#">LU<lt class="logofix">CI</lt><b>D</b></a>
                                 <div class="logo-info mr-auto">
@@ -95,41 +89,42 @@
                                 </ul>
                             </div>
                         </div>
-                    </nav>
+                    </nav>-->
                 </div>
             </header>
             <inform class="inform">
-                <div class="container">
+                <div class="info-container container">
                     <div class="info-row row">
                         <div class="info col-md-6">
-                                <div class="info-cont">
-                                    <h5 class="info-cont__heading">
-                                        introducing lucid theme
-                                    </h5>
-                                    <h1 class="info-cont__title">Carefully cra<lt class="bugfix">ft</lt>ed and beautiful landing page.</h1>
-                                    <p class="info-cont__about">
-                                        Etiam ullamcorper et turpis eget hendrerit.
-                                        Praesent varius risus mi, at elementum magna ultricies accumsan.
-                                        Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque ut imperdiet.
-                                    </p>
-                                    <div class="info-cont__buttons">
-                                        <button type="button" class="info-cont__buttons__primary btn btn-primary">DOWNLOAD NOW</button>
-                                        <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">VIEW FEATURES</button>
-                                    </div>
-                                    
-                                    
+                            <div class="info-cont">
+                                <h5 class="info-cont__heading">
+                                    introducing lucid theme
+                                </h5>
+                                <h1 class="info-cont__title">Carefully cra<lt class="bugfix">ft</lt>ed and beautiful landing page.</h1>   
+                                <p class="info-cont__about">
+                                    Etiam ullamcorper et turpis eget hendrerit. 
+                                    Praesent varius risus mi, at elementum magna ultricies accumsan. 
+                                    Cras venenatis lacus sed&#8239;dolor placerat tempus. 
+                                    Morbi blandit at neque ut imperdiet.
+                                </p>
+                                <div class="info-cont__buttons">
+                                    <button type="button" class="info-cont__buttons__primary btn btn-primary">DOWNLOAD NOW</button>
+                                    <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">VIEW FEATURES</button>
+                                </div>
+
+
                             </div>
                         </div>
                         <div class="info-image col-md">
                             <div class="info-image__block">
-                            <img src="/img/inform/inform_1.png" class="info-image__item img-fluid" title="info image" alt="phones info-image">
+                                <img src="/img/inform/inform_1.png" class="info-image__item img-fluid" title="info image" alt="phones info-image">
                             </div>
                         </div>
                     </div>
                 </div>
             </inform>
         </div>
-        
+
         <div class="main flex-fill">
             <overview class="overview">
                 <div class="overview-wrapper">
@@ -142,76 +137,75 @@
                             <img class="border-dashed over-item__border" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
                         </div>
                         <div class="over-row row">
-                            <div class="col-lg-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_1.png" class=" over-item__image__item img-fluid" title="over-1" alt="over_1">
-                                        </div>
-                                        <h4 class="over-item__heading">
-                                            Responsive
-                                        </h4>  
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
+                            <div class="over-block col-lg-3 col-sm-6 col-xs">
+                                <div class="over-item">
+                                    <div class="over-item__image">
+                                        <img src="/img/overview/overview_1.png" class=" over-item__image__item img-fluid" title="over-1" alt="over_1">
                                     </div>
+                                    <h4 class="over-item__heading">
+                                        Responsive
+                                    </h4>
+                                    <p class="over-item__info">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_2.png" class=" over-item__image__item img-fluid" title="over-2" alt="over_2">
-                                        </div>
-                                        <h4 class="over-item__heading">
-                                            Customizable
-                                        </h4>  
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
+                            <div class="over-block col-lg-3 col-sm-6 col-xs">
+                                <div class="over-item">
+                                    <div class="over-item__image">
+                                        <img src="/img/overview/overview_2.png" class=" over-item__image__item img-fluid" title="over-2" alt="over_2">
                                     </div>
+                                    <h4 class="over-item__heading">
+                                        Customizable
+                                    </h4>
+                                    <p class="over-item__info">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_3.png" class=" over-item__image__item img-fluid" title="over-3" alt="over_3">
-                                        </div>
-                                        <h4 class="over-item__heading">
-                                            Lovely design
-                                        </h4>  
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
+                            <div class="over-block col-lg-3 col-sm-6 col-xs">
+                                <div class="over-item">
+                                    <div class="over-item__image">
+                                        <img src="/img/overview/overview_3.png" class=" over-item__image__item img-fluid" title="over-3" alt="over_3">
                                     </div>
+                                    <h4 class="over-item__heading">
+                                        Lovely design
+                                    </h4>
+                                    <p class="over-item__info">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-lg-3 col-sm-6 col-xs">
-                                    <div class="over-item">
-                                        <div class="over-item__image">
-                                            <img src="/img/overview/overview_4.png" class=" over-item__image__item img-fluid" title="over-4" alt="over_4">
-                                        </div>
-                                        <h4 class="over-item__heading">
-                                            Mobile Friendly
-                                        </h4>  
-                                        <p class="over-item__info">
-                                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
-                                        </p>
+                            <div class="over-block col-lg-3 col-sm-6 col-xs">
+                                <div class="over-item">
+                                    <div class="over-item__image">
+                                        <img src="/img/overview/overview_4.png" class=" over-item__image__item img-fluid" title="over-4" alt="over_4">
                                     </div>
+                                    <h4 class="over-item__heading">
+                                        Mobile Friendly
+                                    </h4>
+                                    <p class="over-item__info">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia consectetur.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </overview>
-                <hr>
+            </overview>
+            <hr>
 
-        <detail class="detail">
-            <div class="detail-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                                <div class="info-image">
+            <detail class="detail">
+                <div class="detail-wrapper">
+                    <div class="detail-cont container">
+                        <div class="detail-row row">
+                                <div class="detail-image col-md-6">
                                     <div class="info-image__block detail-image__block">
-                                    <img src="/img/detail/detail_1.png" class="image-poster__item detail-image__item img-fluid" title="info image" alt="phones info-image">
-                                        </div>
+                                        <img src="/img/detail/detail_1.png" class="image-poster__item detail-image__item img-fluid" title="info image" alt="phones info-image">
+                                    </div>
                                 </div>
-                        </div>
-                        <div class="detail-info col-md-5">
+                            <div class="offset-md-1 offset-lg-0"></div>
+                            <div class="detail-info col-md-5">
                                 <div class="detail-info-heading">
                                     <h5 class="h5-standart h5-details">
                                         dip into the details
@@ -221,10 +215,7 @@
                                 </div>
                                 <div class="detail-info-cont">
                                     <p class="details-info__about">
-                                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
-                                        Morbi accumsan ipsum velit. 
-                                        Nam nec tellus a odio tincidunt auctor a ornare odio. 
-                                        Sed non &#8239;&#8288;&#8239;mauris vitae erat consequat auctor eu in elit.
+                                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non &#8239;&#8288;&#8239;mauris vitae erat consequat auctor eu in elit.
                                     </p>
                                     <ul class="details-info-list">
                                         <li class="details-info-list__item">Awesome design</li>
@@ -234,15 +225,16 @@
                                     </ul>
                                 </div>
                             </div>
+                            <div class="offset-lg-1"></div>
                         </div>
                     </div>
                 </div>
             </detail>
-            
+
             <customise class="customise">
                 <div class="customise-wrapper">
-                    <div class="container">
-                        <div class="row">
+                    <div class="customise-cont container">
+                        <div class="customise-row row">
                             <div class="customise-info col-md-5">
                                 <div class="customise-info-heading detail-info-heading">
                                     <h5 class="h5-standart h5-details">
@@ -251,31 +243,28 @@
                                     <h2 class="h2-customise">Super easy to customize</h2>
                                     <img class="border-dashed" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
                                     <p class="customise-info__about">
-                                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. 
-                                        Morbi accumsan ipsum velit. 
-                                        Nam nec tellus a odio tincidunt auctor a ornare odio. 
-                                        Sed non &#8239;&#8288;&#8239;mauris vitae erat consequat auctor eu in elit.
-                                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                                        Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non &#8239;&#8288;&#8239;mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                                        ad litora torquent per conubia nostra, per inceptos himenaeos.
                                     </p>
                                 </div>
                             </div>
-                            <div class="col-md-7">
-                                    <div class="customise-image col-md">
-                                        <div class="info-image__block">
+                            <div class="customise-img col-md-7">
+                                <div class="customise-image col-md">
+                                    <div class="customise-image__block info-image__block">
                                         <img src="/img/customise/customise_1.png" class="customise-image__item img-fluid" title="info image" alt="phones info-image">
-                                        </div>
                                     </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </customise>
-            
-            
-            
+
+
+
             <feedbacks class="feedbacks">
                 <div class="feed-wrapper">
-                    <div class="container">
+                    <div class="feed-cont container">
                         <div class="feed-info col">
                             <div class="feed-info-header">
                                 <h5 class="h5-standart h5-overview h5-feed">
@@ -286,93 +275,86 @@
                             </div>
                         </div>
                         <div class="feed-comments col">
-                                <div id="carousel" class="feed-carousel carousel ml-auto mr-auto slide carousel-fade d-inline-block"  data-interval="1000000000"data-ride="carousel">
-                                    <!-- Индикаторы -->
-                                    <ol class="feed-indicators carousel-indicators">
-                                        <li data-target="#carousel" data-slide-to="0" class="feed-indicators__item"></li>
-                                        <li data-target="#carousel" data-slide-to="1" class="feed-indicators__item"></li>
-                                        <li data-target="#carousel" data-slide-to="2" class="feed-indicators__item__active active"></li>
-                                        <li data-target="#carousel" data-slide-to="3" class="feed-indicators__item"></li>
-                                    </ol>
+                            <div id="carousel" class="feed-carousel carousel ml-auto mr-auto slide carousel-fade d-inline-block" data-interval="1000000000" data-ride="carousel">
+                                <ol class="feed-indicators carousel-indicators">
+                                    <li data-target="#carousel" data-slide-to="0" class="feed-indicators__item"></li>
+                                    <li data-target="#carousel" data-slide-to="1" class="feed-indicators__item"></li>
+                                    <li data-target="#carousel" data-slide-to="2" class="feed-indicators__item__active active"></li>
+                                    <li data-target="#carousel" data-slide-to="3" class="feed-indicators__item"></li>
+                                </ol>
 
-                                    <div class="carousel-inner">
-                                        <div class="feed-carousel-item carousel-item">
-                                            <div class="row">
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
-                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                            Facilis non totam aperiam itaque magni, veniam fugit iste alias adipisci commodi 
-                                                            voluptates amet explicabo aspernatur labore atque, 
-                                                            inventore enim necessitatibus reprehenderit.
-                                                            
-                                                        </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_3.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
-                                                                </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
+                                <div class="feed-carousel-wrapper carousel-inner">
+                                    <div class="feed-carousel-item carousel-item">
+                                        <div class="feed-row row">
+                                            <div class="cite col-md">
+                                                <div class="feed-carousel-item__cite">
+                                                    <p class="feed-carousel-item__cite__item">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non totam aperiam itaque magni, veniam fugit iste alias adipisci commodi voluptates amet explicabo aspernatur labore atque, inventore enim necessitatibus reprehenderit.
+                                                    </p>
+                                                    <div class="feed-carousel-item__author">
+                                                        <div class="feed-carousel-item__author__row row">
+                                                            <div class="feed-carousel-item__author__image">
+                                                                <img src="/img/feedback/feedback_person_3.png" class="feed-carousel-item__author_image__item img-fluid " alt="auth1 ">
+                                                            </div>
+                                                                <div class="feed-carousel-item__author_pos-img ">
+                                                                    <h6 class="feed-carousel-item__author__name ">
                                                                         John Doe
                                                                     </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
+                                                                    <h4 class="feed-carousel-item__author__pos ">
                                                                         CEO, THE RIVERS COMPANY
                                                                     </h4>
                                                                 </div>
                                                             </div>
                                                         </div>
 
-                                                    </div>
                                                 </div>
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
+                                            </div>
+                                                <div class="cite col-md ">
+                                                    <div class="feed-carousel-item__cite ">
+                                                        <p class="feed-carousel-item__cite__item ">
                                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                                                             Eum recusandae ullam placeat voluptatum omnis nulla temporibus veritatis, 
                                                             quaerat labore earum odio qui, cumque a, enim facere asperiores quia non harum.
                                                             
                                                         </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_4.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
-                                                                </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
-                                                                        Dean Winchester
-                                                                    </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
-                                                                        UX DESIGNER, GOOGLE INC.
-                                                                    </h4>
-                                                                </div>
+                                                        <div class="feed-carousel-item__author ">
+                                                            <div class="feed-carousel-item__author__row row ">
+                                                                <div class="feed-carousel-item__author__image ">
+                                                                    <img src="/img/feedback/feedback_person_4.png " class="feed-carousel-item__author_image__item " img-fluid" alt="auth1">
+                                                            </div>
+                                                            <div class="feed-carousel-item__author_pos-img">
+                                                                <h6 class="feed-carousel-item__author__name">
+                                                                    Dean Winchester
+                                                                </h6>
+                                                                <h4 class="feed-carousel-item__author__pos">
+                                                                    UX DESIGNER, GOOGLE INC.
+                                                                </h4>
                                                             </div>
                                                         </div>
-
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="feed-carousel-item carousel-item">
-                                            <div class="row">
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
-                                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                                                            Eum voluptatibus explicabo aspernatur a consequatur fuga incidunt, 
-                                                            veniam natus illum deleniti inventore quisquam obcaecati, eius repudiandae cum velit repellendus, debitis porro?
-                                                            
-                                                        </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_5.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
+                                    </div>
+                                    <div class="feed-carousel-item carousel-item">
+                                        <div class="row">
+                                            <div class="cite col-md">
+                                                <div class="feed-carousel-item__cite">
+                                                    <p class="feed-carousel-item__cite__item">
+                                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum voluptatibus explicabo aspernatur a consequatur fuga incidunt, veniam natus illum deleniti inventore quisquam obcaecati, eius repudiandae cum velit repellendus, debitis porro?
+
+                                                    </p>
+                                                    <div class="feed-carousel-item__author">
+                                                        <div class="feed-carousel-item__author__row row">
+                                                            <div class="feed-carousel-item__author__image">
+                                                                <img src="/img/feedback/feedback_person_5.png" class="feed-carousel-item__author_image__item" img-fluid " alt="auth1 ">
                                                                 </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
+                                                                <div class="feed-carousel-item__author_pos-img ">
+                                                                    <h6 class="feed-carousel-item__author__name ">
                                                                         John Doe
                                                                     </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
+                                                                    <h4 class="feed-carousel-item__author__pos ">
                                                                         CEO, THE RIVERS COMPANY
                                                                     </h4>
                                                                 </div>
@@ -381,54 +363,52 @@
 
                                                     </div>
                                                 </div>
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
+                                                <div class="cite col-md ">
+                                                    <div class="feed-carousel-item__cite ">
+                                                        <p class="feed-carousel-item__cite__item ">
                                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, eos aliquid. 
                                                             Iusto fugiat placeat dicta sit reprehenderit excepturi consectetur aliquam quo recusandae, 
                                                             magni repellendus, animi voluptatem, nemo maxime at deserunt!
                                                             
                                                         </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_6.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
-                                                                </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
-                                                                        Dean Winchester
-                                                                    </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
-                                                                        UX DESIGNER, GOOGLE INC.
-                                                                    </h4>
-                                                                </div>
+                                                        <div class="feed-carousel-item__author ">
+                                                            <div class="feed-carousel-item__author__row row ">
+                                                                <div class="feed-carousel-item__author__image ">
+                                                                    <img src="/img/feedback/feedback_person_6.png " class="feed-carousel-item__author_image__item " img-fluid" alt="auth1">
+                                                            </div>
+                                                            <div class="feed-carousel-item__author_pos-img">
+                                                                <h6 class="feed-carousel-item__author__name">
+                                                                    Dean Winchester
+                                                                </h6>
+                                                                <h4 class="feed-carousel-item__author__pos">
+                                                                    UX DESIGNER, GOOGLE INC.
+                                                                </h4>
                                                             </div>
                                                         </div>
-
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="feed-carousel-item carousel-item active">
-                                            <div class="row">
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
-                                                            Once upon a time all the Rivers combined to protest against 
-                                                            the action of the Sea in making their waters salt. 
-                                                            “When we come to you,” said they to the Sea.
-                                                            
-                                                        </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_1.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
+                                    </div>
+                                    <div class="feed-carousel-item carousel-item active">
+                                        <div class="row">
+                                            <div class="cite col-md">
+                                                <div class="feed-carousel-item__cite">
+                                                    <p class="feed-carousel-item__cite__item">
+                                                        Once upon a time all the Rivers combined to protest against the action of the Sea in making their waters salt. “When we come to you,” said they to the Sea.
+
+                                                    </p>
+                                                    <div class="feed-carousel-item__author">
+                                                        <div class="feed-carousel-item__author__row row">
+                                                            <div class="feed-carousel-item__author__image">
+                                                                <img src="/img/feedback/feedback_person_1.png" class="feed-carousel-item__author_image__item" img-fluid " alt="auth1 ">
                                                                 </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
+                                                                <div class="feed-carousel-item__author_pos-img ">
+                                                                    <h6 class="feed-carousel-item__author__name ">
                                                                         John Doe
                                                                     </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
+                                                                    <h4 class="feed-carousel-item__author__pos ">
                                                                         CEO, THE RIVERS COMPANY
                                                                     </h4>
                                                                 </div>
@@ -437,55 +417,52 @@
 
                                                     </div>
                                                 </div>
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
+                                                <div class="cite col-md ">
+                                                    <div class="feed-carousel-item__cite ">
+                                                        <p class="feed-carousel-item__cite__item ">
                                                             A shoe is not only a design, but it's a 
                                                             part of your body language, the way you walk. 
                                                             The way you're going to move is quite dictated by your shoes.
                                                             
                                                         </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_2.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
-                                                                </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
-                                                                        Dean Winchester
-                                                                    </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
-                                                                        UX DESIGNER, GOOGLE INC.
-                                                                    </h4>
-                                                                </div>
+                                                        <div class="feed-carousel-item__author ">
+                                                            <div class="feed-carousel-item__author__row row ">
+                                                                <div class="feed-carousel-item__author__image ">
+                                                                    <img src="/img/feedback/feedback_person_2.png " class="feed-carousel-item__author_image__item " img-fluid" alt="auth1">
+                                                            </div>
+                                                            <div class="feed-carousel-item__author_pos-img">
+                                                                <h6 class="feed-carousel-item__author__name">
+                                                                    Dean Winchester
+                                                                </h6>
+                                                                <h4 class="feed-carousel-item__author__pos">
+                                                                    UX DESIGNER, GOOGLE INC.
+                                                                </h4>
                                                             </div>
                                                         </div>
-
                                                     </div>
+
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="feed-carousel-item carousel-item">
-                                            <div class="row">
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
-                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                                            Facilis non totam aperiam itaque magni, veniam fugit iste alias adipisci commodi 
-                                                            voluptates amet explicabo aspernatur labore atque, 
-                                                            inventore enim necessitatibus reprehenderit.
-                                                            
-                                                        </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_7.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
+                                    </div>
+                                    <div class="feed-carousel-item carousel-item">
+                                        <div class="row">
+                                            <div class="cite col-md">
+                                                <div class="feed-carousel-item__cite">
+                                                    <p class="feed-carousel-item__cite__item">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non totam aperiam itaque magni, veniam fugit iste alias adipisci commodi voluptates amet explicabo aspernatur labore atque, inventore enim necessitatibus reprehenderit.
+
+                                                    </p>
+                                                    <div class="feed-carousel-item__author">
+                                                        <div class="feed-carousel-item__author__row row">
+                                                            <div class="feed-carousel-item__author__image">
+                                                                <img src="/img/feedback/feedback_person_7.png" class="feed-carousel-item__author_image__item" img-fluid " alt="auth1 ">
                                                                 </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
+                                                                <div class="feed-carousel-item__author_pos-img ">
+                                                                    <h6 class="feed-carousel-item__author__name ">
                                                                         John Doe
                                                                     </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
+                                                                    <h4 class="feed-carousel-item__author__pos ">
                                                                         CEO, THE RIVERS COMPANY
                                                                     </h4>
                                                                 </div>
@@ -494,27 +471,26 @@
 
                                                     </div>
                                                 </div>
-                                                <div class="cite col-md">
-                                                    <div class="feed-carousel-item__cite">
-                                                        <p class="feed-carousel-item__cite__item">
+                                                <div class="cite col-md ">
+                                                    <div class="feed-carousel-item__cite ">
+                                                        <p class="feed-carousel-item__cite__item ">
                                                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
                                                             Eum recusandae ullam placeat voluptatum omnis nulla temporibus veritatis, 
                                                             quaerat labore earum odio qui, cumque a, enim facere asperiores quia non harum.
                                                             
                                                         </p>
-                                                        <div class="feed-carousel-item__author">
-                                                            <div class="feed-carousel-item__author__row row">
-                                                                <div class="feed-carousel-item__author__image">
-                                                                    <img src="/img/feedback/feedback_person_8.png" class="feed-carousel-item__author_image__item" img-fluid" alt="auth1">
-                                                                </div>
-                                                                <div class="feed-carousel-item__author_pos-img">
-                                                                    <h6 class="feed-carousel-item__author__name">
-                                                                        Dean Winchester
-                                                                    </h6>
-                                                                    <h4 class="feed-carousel-item__author__pos">
-                                                                        UX DESIGNER, GOOGLE INC.
-                                                                    </h4>
-                                                                </div>
+                                                        <div class="feed-carousel-item__author ">
+                                                            <div class="feed-carousel-item__author__row row ">
+                                                                <div class="feed-carousel-item__author__image ">
+                                                                    <img src="/img/feedback/feedback_person_8.png " class="feed-carousel-item__author_image__item " img-fluid" alt="auth1">
+                                                            </div>
+                                                            <div class="feed-carousel-item__author_pos-img">
+                                                                <h6 class="feed-carousel-item__author__name">
+                                                                    Dean Winchester
+                                                                </h6>
+                                                                <h4 class="feed-carousel-item__author__pos">
+                                                                    UX DESIGNER, GOOGLE INC.
+                                                                </h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -527,74 +503,72 @@
                         </div>
                     </div>
                 </div>
-            </feedbacks>
-            <rehearsal class="rehearsal">
-                <div class="rehearsal-wrapper">
-                    <div class="rehearsal-cont container">
-                        <div class="row">
-                            <div class="rehearsal-heading col-xl-7 col-lg-12">
-                                <h2 class="rehearsal-heading__text"><b>Like what you see? </b>Get&nbsp;this great theme now!</h2>
-                            </div>
-                            <div class="rehearsal-buttons col-xl">
-                                <button type="button" class="info-cont__buttons__primary btn btn-primary">VIEW FEATURES</button>
-                                <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">DOWNLOAD NOW</button>
-                            </div>
+        </div>
+        </feedbacks>
+        <rehearsal class="rehearsal">
+            <div class="rehearsal-wrapper">
+                <div class="rehearsal-cont container">
+                    <div class="rehearsal-row row">
+                        <div class="rehearsal-heading col-xl-7 col-lg-12">
+                            <h2 class="rehearsal-heading__text"><b class="rehearsal-heading__text__bold">Like what you see? </b>Get&nbsp;this great theme now!</h2>
+                        </div>
+                        <div class="rehearsal-buttons col-xl">
+                            <button type="button" class="info-cont__buttons__outline__secondary btn btn-outline-secondary">VIEW FEATURES</button>
+                            <button type="button" class="rehearsal-buttons__primary info-cont__buttons__primary btn btn-primary">DOWNLOAD NOW</button>
                         </div>
                     </div>
                 </div>
-            </rehearsal>
-            
-            <pricing class="pricing">
-                <div class="pricing-wrapper">
-                    <div class="pricing-cont container">
-                        <div class="pricing-info col">
-                            <div class="pricing-info-header">
-                                <h5 class="h5-pricing h5-standart h5-overview">
-                                    quality has its price
-                                </h5>
-                                <h2 class="h2-pricing h2-overview h2-feed">Pricings & Plans</h2>
-                                <img class="border-dashed feed-item__border" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
-                            </div>
+            </div>
+        </rehearsal>
+
+        <pricing class="pricing">
+            <div class="pricing-wrapper">
+                <div class="pricing-cont container">
+                    <div class="pricing-info col">
+                        <div class="pricing-info-header">
+                            <h5 class="h5-pricing h5-standart h5-overview">
+                                quality has its price
+                            </h5>
+                            <h2 class="h2-pricing h2-overview h2-feed">Pricings & Plans</h2>
+                            <img class="border-dashed" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
                         </div>
-                        <div class="pricing-table__row row">
-                            <div class="pricing-table__item col-lg-3 col-sm-6 col-xs">
-                                    <ul class="price-table__item">
-                                        <li class="price-table__item__header"><h3 class="price-table__item__header__type">FREE</h3></li>
-                                        <li class="price-table__item__price">
-                                                <div class="price-table__item__price__item">
-                                                    <h1 class="price-table__item__price__numb__first">0</h1>
-                                                    <div class="price-table__item__price__text">/per month</div>
-                                                </div>
-                                        </li>
-                                        <li class="price-table__item__about">
-                                            <p class="price-table__item__about__item">
-                                                Fusce fermentum placerat magna ac pharetra. 
-                                                Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
-                                            </p>
-                                            <button type="button" class="price-table__item__about__button__outline__secondary price-table__item__about__button btn btn-outline-secondary">order now</button>
-                                        </li>
-                                    </ul>
-                            </div>
-                            <div class="pricing-table__item col-lg-3 col-sm-6 col-xs">
-                                <ul class="price-table__item">
-                                    <li class="price-table__item__header"><h3 class="price-table__item__header__type">personal</h3></li>
-                                    <li class="price-table__item__price">
-                                        <div class="price-table__item__price__item">
-                                            <h1 class="price-table__item__price__numb">25</h1>
-                                            <div class="price-table__item__price__text">/per month</div>
-                                        </div>
-                                    </li>
-                                    <li class="price-table__item__about">
-                                        <p class="price-table__item__about__item">
-                                            Fusce fermentum placerat magna ac pharetra. 
-                                            Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
-                                        </p>
-                                        <button type="button" class="price-table__item__about__button__outline__secondary price-table__item__about__button btn btn-outline-secondary">order now</button>
-                                    </li>
-                                </ul>
-                        </div>
-                        <div class="pricing-table__item active col-lg-3 col-sm-6 col-xs">
-                            <ul class="price-table__item active">
+                    </div>
+                    <div class="pricing-table__row row">
+                        <ul class="pricing-table__item col-lg-3 col-sm-6 col-xs">
+                                <li class="price-table__item__header">
+                                    <h3 class="price-table__item__header__type">FREE</h3>
+                                </li>
+                                <li class="price-table__item__price">
+                                    <div class="price-table__item__price__item">
+                                        <h1 class="price-table__item__price__numb__first">0</h1>
+                                        <div class="price-table__item__price__text">/per month</div>
+                                    </div>
+                                </li>
+                                <li class="price-table__item__about">
+                                    <p class="price-table__item__about__item">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
+                                    </p>
+                                    <button type="button" class="price-table__item__about__button__outline__secondary price-table__item__about__button btn btn-outline-secondary">order now</button>
+                                </li>
+                        </ul>
+                        <ul class="pricing-table__item col-lg-3 col-sm-6 col-xs">
+                                <li class="price-table__item__header">
+                                    <h3 class="price-table__item__header__type">personal</h3>
+                                </li>
+                                <li class="price-table__item__price">
+                                    <div class="price-table__item__price__item">
+                                        <h1 class="price-table__item__price__numb">25</h1>
+                                        <div class="price-table__item__price__text">/per month</div>
+                                    </div>
+                                </li>
+                                <li class="price-table__item__about">
+                                    <p class="price-table__item__about__item">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
+                                    </p>
+                                    <button type="button" class="price-table__item__about__button__outline__secondary price-table__item__about__button btn btn-outline-secondary">order now</button>
+                                </li>
+                        </ul>
+                        <ul class="pricing-table__item active col-lg-3 col-sm-6 col-xs">
                                 <li class="price-table__item__header active">
                                     <h3 class="price-table__item__header__type active">business</h3>
                                 </li>
@@ -606,130 +580,127 @@
                                 </li>
                                 <li class="price-table__item__about">
                                     <p class="price-table__item__about__item">
-                                        Fusce fermentum placerat magna ac pharetra. 
-                                        Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
                                     </p>
                                     <button type="button" class="price-table__item__about__button btn btn-primary active">order now</button>
                                 </li>
-                            </ul>
-                    </div>
-                    <div class="pricing-table__item col-lg-3 col-sm-6 col-xs">
-                        <ul class="price-table__item">
-                            <li class="price-table__item__header"><h3 class="price-table__item__header__type">ultimate</h3></li>
-                            <li class="price-table__item__price">
-                                <div class="price-table__item__price__item">
-                                    <h1 class="price-table__item__price__numb">99</h1>
-                                    <div class="price-table__item__price__text">/per month</div>
-                                </div>
-                            </li>
-                            <li class="price-table__item__about">
-                                <p class="price-table__item__about__item">
-                                    Fusce fermentum placerat magna ac pharetra. 
-                                    Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
-                                </p>
-                                <button type="button" class="price-table__item__about__button__outline__secondary  price-table__item__about__button btn btn-outline-secondary">order now</button>
-                            </li>
                         </ul>
-                </div>
-                        </div>
+                        <ul class="pricing-table__item col-lg-3 col-sm-6 col-xs">
+                                <li class="price-table__item__header">
+                                    <h3 class="price-table__item__header__type">ultimate</h3>
+                                </li>
+                                <li class="price-table__item__price">
+                                    <div class="price-table__item__price__item">
+                                        <h1 class="price-table__item__price__numb">99</h1>
+                                        <div class="price-table__item__price__text">/per month</div>
+                                    </div>
+                                </li>
+                                <li class="price-table__item__about">
+                                    <p class="price-table__item__about__item">
+                                        Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <a href="#" class="price-table__item__about__link">lacinia</a> consectetur.
+                                    </p>
+                                    <button type="button" class="price-table__item__about__button__outline__secondary  price-table__item__about__button btn btn-outline-secondary">order now</button>
+                                </li>
+                        </ul>
                     </div>
                 </div>
-            </pricing>
-            <contact class="contact">
-                <div class="contact-wrapper">
-                    <div class="contact-cont container ">
-                        <div class="contact-info col">
-                            <div class="contact-info-header">
-                                <h5 class="h5-cont h5-standart">
-                                    stay in touch
-                                </h5>
-                                <h2 class="h2-cont h2-feed">Contact us</h2>
-                                <img class="border-dashed feed-item__border" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
+            </div>
+        </pricing>
+        <contact class="contact">
+            <div class="contact-wrapper">
+                <div class="contact-cont container ">
+                    <div class="contact-info col">
+                        <div class="contact-info-header">
+                            <h5 class="h5-cont h5-standart">
+                                stay in touch
+                            </h5>
+                            <h2 class="h2-cont h2-feed">Contact us</h2>
+                            <img class="border-dashed feed-item__border" src="/img/border-dashed.png" alt="dashed-border.img" title="border-dashed">
+                        </div>
+                    </div>
+                    <div class="contacts-tar row">
+                        <div class="offset-xl-1 offset-md-1"></div>
+                        <div class="contacts-item col-xl-2 col-md-3 col-sm-6">
+                            <div class="contacts-item__tel">
+                                <div class="contacts-item__tel__img">
+                                    <img src="/img/contact/contact_1.png" class="img-fluid" title="contacts_1" alt="contacts_1">
+                                </div>
+                                <div class="contacts-item__tel__text">
+                                    <p class="contacts-item__text__item _tel">Phone: (415) 124-5678</p>
+                                    <p class="contacts-item__text__item _tel">Fax: (412) 123-8290</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="contacts-tar row">
-                            <div class="offset-xl-1 offset-md-1"></div>
-                            <div class="contacts-item col-xl-2 col-md-3 col-sm-6">
-                                <div class="contacts-item__tel">
-                                    <div class="contacts-item__tel__img">
-                                        <img src="/img/contact/contact_1.png" class="img-fluid" title="contacts_1" alt="contacts_1">
-                                    </div>
-                                    <div class="contacts-item__tel__text">
-                                        <p class="contacts-item__text__item _tel">Phone: (415) 124-5678</p>
-                                        <p class="contacts-item__text__item _tel">Fax: (412) 123-8290</p>
-                                    </div>
+                        <div class="offset-xl-2 offset-lg-1 offset-md-0"></div>
+                        <div class="contacts-item col-lg-2 col-md-4 col-sm-6">
+                            <div class="contacts-item__geo">
+                                <div class="contacts-item__geo__img">
+                                    <img src="/img/contact/contact_2.png" class="img-fluid" title="contacts_2" alt="contacts_2">
+                                </div>
+                                <div class="contacts-item__geo__text">
+                                    <p class="contacts-item__text__item _geo">1001 Brickell Bay Dr.</p>
+                                    <p class="contacts-item__text__item _geo">Suite 1900</p>
+                                    <p class="contacts-item__text__item _geo">Miami, FL 33131</p>
                                 </div>
                             </div>
-                            <div class="offset-xl-2 offset-lg-1 offset-md-0"></div>
-                            <div class="contacts-item col-lg-2 col-md-4 col-sm-6">
-                                <div class="contacts-item__geo">
-                                    <div class="contacts-item__geo__img">
-                                        <img src="/img/contact/contact_2.png" class="img-fluid" title="contacts_2" alt="contacts_2">
-                                    </div>
-                                    <div class="contacts-item__geo__text">
-                                        <p class="contacts-item__text__item">1001 Brickell Bay Dr.</p>
-                                        <p class="contacts-item__text__item">Suite 1900</p>
-                                        <p class="contacts-item__text__item">Miami, FL 33131</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="offset-1 offset-lg-1 offset-md-0"></div>
-                            <div class="contacts-item col-xl-4 col-md-3">
-                                <div class="contacts-item__mail">
-                                    <div class="contacts-item__mail__img">
-                                        <img src="/img/contact/contact_3.png" class="img-fluid" title="contacts_3" alt="contacts_3">
-                                    </div>
-                                    <div class="contacts-item__mail__text">
-                                        <p class="contacts-item__text__item">support@yourname.com</p>
-                                    </div>  
-                                </div>
-                            </div>
-                            <div class="offset-md-1"></div>
                         </div>
+                        <div class="offset-1 offset-lg-1 offset-md-0"></div>
+                        <div class="contacts-item col-xl-4 col-md-3">
+                            <div class="contacts-item__mail">
+                                <div class="contacts-item__mail__img">
+                                    <img src="/img/contact/contact_3.png" class="img-fluid" title="contacts_3" alt="contacts_3">
+                                </div>
+                                <div class="contacts-item__mail__text">
+                                    <p class="contacts-item__text__item _mail">support@yourname.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="offset-md-1"></div>
+                    </div>
 
-                        <div class="cont-row row justify-content-center">
-                            <div class="cont-form col-md-8 row justify-content-center">
-                                <div class="cont-form__wrapper">
-                                    <form id="form" class="form-group" action="#" method="get">
-                                        <div class="form-row row">
-                                            <div class="offset-md-1"></div>
-                                            <div class="form-row__col _1 col-lg-5 col-md-4">
-                                                <div class="form__item">
-                                                    <input type="text" id="name" name="name" class="form__input _req _name" onfocus="this.value=''" placeholder="NAME *">
-                                                </div> 
-                                                <div class="form__item">
-                                                    <input type="text" id="email" name="email" class="form__input _req _email" onfocus="this.value=''" placeholder="EMAIL *">
-                                                </div>
-                                                <div class="form__item">
-                                                    <input type="text" id="speciality" name="specs" class="form__input _req _spec" onfocus="this.value= ''" placeholder="SUBJECT *">
-                                                </div>
+                    <div class="cont-row row justify-content-center">
+                        <div class="cont-form col-md-8 row justify-content-center">
+                            <div class="cont-form__wrapper">
+                                <form id="form" class="form-group" action="#" method="get">
+                                    <div class="form-row row">
+                                        <div class="offset-md-1"></div>
+                                        <div class="form-row__col _1 col-lg-5 col-md-4">
+                                            <div class="form__item">
+                                                <input type="text" id="name" name="name" class="form__input _req _name" onfocus="this.value=''" placeholder="NAME *">
                                             </div>
-
-
-                                            <div class="offset-md-2 offset-lg-1 offset-xl-0"></div>
-
-                                            <div class="form-row__col _2 col-xl-5 col-md-4">
-                                                <div id="error"></div>
-                                                <div class="form__item">
-                                                    <textarea name="message" id="message" class="form__input _req form_textarea"  onfocus="this.value=''" placeholder="MESSAGE *"></textarea>
-                                                </div>
-                                                <div class="form__item__button">
-                                                    <button type="submit" class="form__input__button btn btn-primary active">send message</button>
-                                                </div>
+                                            <div class="form__item">
+                                                <input type="text" id="email" name="email" class="form__input _req _email" onfocus="this.value=''" placeholder="EMAIL *">
                                             </div>
-                                            <div class="offset-md-1"></div>
+                                            <div class="form__item">
+                                                <input type="text" id="speciality" name="specs" class="form__input _req _spec" onfocus="this.value= ''" placeholder="SUBJECT *">
+                                            </div>
                                         </div>
-                                        
-                                    </form>
-                                </div>
+
+
+                                        <div class="offset-md-2 offset-lg-1 offset-xl-0"></div>
+
+                                        <div class="form-row__col _2 col-xl-5 col-md-4">
+                                            <div id="error"></div>
+                                            <div class="form__item">
+                                                <textarea name="message" id="message" class="form__input _req form_textarea" onfocus="this.value=''" placeholder="MESSAGE *"></textarea>
+                                            </div>
+                                            <div class="form__item__button">
+                                                <button type="submit" class="form__input__button btn btn-primary active">send message</button>
+                                            </div>
+                                        </div>
+                                        <div class="offset-md-1"></div>
+                                    </div>
+
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-            </contact>
+            </div>
 
-            <map class="map" id="map" >
+        </contact>
+
+        <map class="map" id="map">
                 <div class="map-wrapper" style="width: 100%; overflow: hidden; height: 370px;">
                     <iframe class="map-content" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1345.9240863726595!2d-80.18860191154239!3d25.764412717910595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b6823bb65e3b%3A0x780f7212865c671b!2sThe%20Hackett%20Group!5e0!3m2!1sen!2sua!4v1634649273467!5m2!1sen!2sua"
                         width="100%"
@@ -740,42 +711,42 @@
                     </iframe>
                 </div>
             </map>
-        </div>
-        
-        <footer class="foter sticky-bottom">
-            <div class="footer-wrapper  sticky-bottom">
-                <div class="footer-cont container">
-                        <div class="footer-icons-row centered col">
-                            <a href="#"><i class="fa fa-first fa-behance"></i></a>
-                            <a href="#"><i class="fa fa-second fa-dribbble"></i></a>
-                            <a href="#"><i class="fa fa-twitter fa-twitter__cust"></i></a>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                            <a href="#"><i class="fa fa-last fa-linkedin"></i></a>
-                        </div>
-                        <div class="footer-copyrights col centered">
-                            <p class="footer-copyrights__item">
-                                Copyright &copy;2014 lucid onepage theme
-                            </p>
-                        </div>
+    </div>
+
+    <footer class="foter sticky-bottom">
+        <div class="footer-wrapper  sticky-bottom">
+            <div class="footer-cont container">
+                <div class="footer-icons-row centered col">
+                    <a href="#"><i class="fa fa-first fa-behance"></i></a>
+                    <a href="#"><i class="fa fa-second fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-twitter fa-twitter__cust"></i></a>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-last fa-linkedin"></i></a>
+                </div>
+                <div class="footer-copyrights col centered">
+                    <p class="footer-copyrights__item">
+                        Copyright &copy;2014 lucid onepage theme
+                    </p>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
     </div>
 
     <script src="/js/script.js"></script>
-<!--      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <!--      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 -->
     <script src="https://kit.fontawesome.com/f2c150d561.js" crossorigin="anonymous"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
 
 
 
-        <!--<div class="nav">
+<!--<div class="nav">
             <div class="container">
                 <div class="row">
                     <div class="col-2">
@@ -814,7 +785,7 @@
                 </div>
             </div>
         </div>-->
-    <!--<div class="container">
+<!--<div class="container">
                 <div class="col-3">
                     <div class="block">
                         <div class="logo">

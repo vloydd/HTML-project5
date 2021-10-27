@@ -24,10 +24,12 @@
     "gulp-sourcemap": "^1.0.1",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-watch": "^5.0.1",
+    "jquery": "^3.6.0",
     "node-sass": "^6.0.1",
     "sass": "^1.32.13"
   },
   "dependencies": {
-    "bootstrap-icons": "^1.5.0"
+    "bootstrap-icons": "^1.5.0",
+    "popper.js": "^1.16.1"
   }
 }
