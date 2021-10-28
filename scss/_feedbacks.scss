@@ -1,3 +1,5 @@
+@import "./variables.scss";
+@import "./media.scss";
 .feedbacks {
     .feed-wrapper {
         background-image: url('/img/feedback/feedback_bg.png');
@@ -12,6 +14,9 @@
                 .feed-info-header {
                     .h5-feed {
                         margin-top: 61px;
+                        @media (max-width: 767px) {
+                            margin-top: 20px;
+                        }
                     }
                     .h2-feed {
                         color: $white;
@@ -27,6 +32,9 @@
             .feed-comments {
                 padding: 0;
                 margin-top: 79px;
+                @media (max-width: 767px) {
+                    margin-top: 20px;
+                } 
                 .feed-carousel {
                     text-align: center;
                     .feed-indicators  {
@@ -75,9 +83,15 @@
                                         text-align: start;
                                         letter-spacing: 0.00em;
                                         line-height: 32px;
+                                        @media (max-width: 767px) {
+                                            text-align: center;
+                                        }
                                     }
                                     .feed-carousel-item__author {
                                         text-align: start;
+                                        @media (max-width:767px) {
+                                            text-align: center;
+                                        }
                                         .feed-carousel-item__author__row {
                                             margin: 0;
                                             .feed-carousel-item__author__image {
@@ -113,19 +127,3 @@
 
 
 
-
-
-
-
-
-@media (max-width: 767px) {
-    .feed-carousel-item__cite__item {
-        text-align: center!important;
-    }
-    .feed-carousel-item__author {
-        text-align: center;
-    }
-    .feed-carousel-item__author__image {
-        margin: 0 auto;
-    }
-}

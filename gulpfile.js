@@ -22,7 +22,9 @@ function browsersync() {
         .pipe(sass({
             includePaths: ['node_modules/bootstrap/scss']
         }))
+        .pipe(sourcemaps.init())
         .pipe(sass().on('error' ,sass.logError))
+        .pipe(sourcemaps.write('./'))
         .pipe(gulp.dest('./css/'))
         .pipe(browserSync.reload({
             stream: true

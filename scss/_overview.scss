@@ -1,12 +1,23 @@
+@import "./variables.scss";
+@import "./media.scss";
 .overview {
     .overview-wrapper {
         background-color: $white;
         margin-bottom: 52px;
+        @media (max-width: 767px) {
+            margin-bottom: 20px;
+        }
         .overview-cont {
             margin-top: 61.5px;
+            @media (max-width: 767px) {
+                margin-top: 20px;
+            }
             .overview-info {
                 text-align: center;
                 margin-bottom: 72px;
+                @media (max-width: 767px) {
+                    margin-bottom: 20px;
+                }
                 .h5-overview {
                     margin-bottom: 11px;
                 }

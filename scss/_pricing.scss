@@ -1,4 +1,8 @@
+@import "./variables.scss";
+@import "./media.scss";
+
 .pricing-wrapper {
+    background-color: $white;
     margin-top: 57px;
     min-height: 723px;
     .pricing-cont {
@@ -6,6 +10,9 @@
             text-align: center;
             .pricing-info-header {
                 margin-bottom: 61px;
+                @media (max-width:767px) {
+                    margin-bottom: 20px;
+                }
                 .h2-pricing { 
                     margin-top: 10px; 
                     margin-bottom: 15px;
@@ -73,7 +80,7 @@
                         margin-top: -1px;
                         margin-left: -1px;
                         &::after {
-                        } 
+                        }   
                     }
                     .price-table__item__price__item {
                         margin: auto;
@@ -99,9 +106,12 @@
                                 color: $white;    
                             }
                             &.active {
+                                margin-bottom: 1
+                                px
+                                ;
                                 color: $white;
                                 &::after {
-                                    left: -2px;
+                                    left: 3px;
                                 }
                             }
                         }
@@ -132,8 +142,12 @@
                             letter-spacing: 0.01em;
                             margin-bottom: 0;   
                             line-height: 18px;
-                            &.active::after {
-                                content:none;
+                            &.active {
+                                margin-right: 11px;
+                                margin-bottom: -4px;
+                                &::after {
+                                    content:none;
+                                }
                             }
                         }
                     }
@@ -159,14 +173,17 @@
                     .price-table__item__about__button {
                         margin-top: 40px;
                         transition: 1s;
+                        &.btn-primary {
+                            background-color: $lightblue;
+                        }
                     }
                     .price-table__item__about__button__outline__secondary{
                         color: $lightblue;
-                    }
-                    &:hover {
-                        transition: 1s;
-                        background-color: $lightblue;
-                        color: $white;
+                        &:hover {
+                            transition: 1s;
+                            background-color: $lightblue;
+                            color: $white;
+                        }
                     }
                 }
             }   
