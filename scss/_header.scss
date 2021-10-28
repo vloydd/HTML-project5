@@ -1,6 +1,5 @@
 @import "./variables.scss";
 @import "./media.scss";
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
 
 
 * {
@@ -122,7 +121,7 @@
                         padding: 0;
                         .head-navb__lgo {
                             .head-navb__lgo__br {
-                                font-family: 'Quicksand', sans-serif;
+                                font-family: $quicksand-sf;
                                 font-size: 24px;
                                 font-weight: 700;
                                 text-transform: uppercase;
@@ -131,7 +130,7 @@
                                 margin-right: 5px;
                                 letter-spacing: 0.6px;
                                 & b {
-                                    font-family: 'Inconsolata', sans-serif;
+                                    font-family: $inconsolata-sf;
                                     font-weight: 700;
                                     font-size: 27px;
                                 }
@@ -303,7 +302,6 @@
                                 .info-image__item {
                                     text-align: end;
                                     margin-left: auto;
-                                    // margin-top: auto!important;
                                     vertical-align: sub;
                                     margin-top: 3px;
                                     margin-right: 1px;

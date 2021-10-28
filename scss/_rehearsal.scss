@@ -9,6 +9,9 @@
         .rehearsal-cont {
             .rehearsal-row {
                 .rehearsal-heading {
+                    @media (min-width: 1200px) {
+                        padding-right: 0px;
+                    }
                     .rehearsal-heading__text {
                         margin-left: -1px;
                         margin-top: 1px;
@@ -49,32 +52,5 @@
                 }
             }
         }
-    }
-}
-
-@media (min-width: 1200px) {
-    .rehearsal-heading {
-        padding-right: 0px;
-    }
-}
-
-@media (max-width: 1199px) {
-    .rehearsal-heading {
-        //padding-right: 15px!important;
-    }
-    .rehearsal-heading__text {
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: calc(30px + 6 * (100vw - 320px) / 1600);
-    }
-    .rehearsal-buttons {
-        text-align: center;
-    }
-}
-@media (max-width:767px) {
-    .rehearsal-buttons {
-        display: flex;
-        flex-wrap: nowrap;
-        display: inline-block;
     }
 }

@@ -23,6 +23,7 @@
                 }
                 .detail-info {
                     text-align: start;
+                    color: $lightgray;
                     @media (max-width: 767px) {
                         text-align: center;
                     }
@@ -49,6 +50,7 @@
                             letter-spacing: 0.0143em;
                             font-weight: 300;
                             line-height: 26px;
+                            color: $lightgray;
                         }
                         .details-info-list {
                             margin-top: 24px;
@@ -61,7 +63,7 @@
                                 position: relative;
                                 font-size: 18px;
                                 font-weight: 400;
-                                letter-spacing: 0.02em;
+                                letter-spacing: 0.016em;
                                 color: $black;
                                 line-height: 36px;
                                 background-position: -1px 10px;
@@ -110,7 +112,7 @@
                         .h2-customise {
                             margin-top: 11px;
                             letter-spacing: -0.01em;
-                            margin-bottom: 12px;
+                            margin-bottom: 13px;
                             font-size: 37px;
                         }
                     }
@@ -119,6 +121,7 @@
                         letter-spacing: 0.0143em;
                         font-weight: 300;
                         line-height: 26px;
+                        color: $lightgray;
                     }
                     @media (max-width: 767px) {
                         text-align: center;
