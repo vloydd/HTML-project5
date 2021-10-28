@@ -100,10 +100,8 @@
                     min-width: 290px;
                     padding: 0;
                     background-color: $dark;
-                    @media (max-width: 991px) {
-                        .cont-form__wrapper {
-
-                        }
+                    @media (min-width: 1440px) {
+                        width: 770px;
                     }
                     .form-group {
                         .form-row {
@@ -151,6 +149,9 @@
                                                 color: $dangercl;
                                                 opacity: 0.5; 
                                             }
+                                            @media (min-width: 1440px) {
+                                                width: 300px;
+                                            }
                                         }
                                         
                                     }
@@ -191,50 +192,4 @@
 .map {
     z-index: 0;
     margin-top: -65px;
-}   
-
-
-@media (min-width: 1440px) {
-    .cont-form__wrapper {
-        width: 770px;
-    }
-    .form__input {
-        width: 300px;
-    }
-}
-
-@media (max-width: 1439px) {
-    .cont-form__wrapper {
-        @include adaptiv-value("width", 1000, 290, 0);
-    }
-    .form__input {
-        @include adaptiv-value("width", 300, 200, 0);
-    }
-    .form-row__col._2 {
-        text-align: end;
-    }
-    .form__input {
-        width: 100%;
-    }
-    .rehearsal-heading__text {
-        @include adaptiv-value("font-size", 36, 30, 0);
-    }
-}
-@media (max-width: 991px) {
-    .form-row__col {
-    }
-    .cont-form__wrapper {
-        position: relative;
-    }
-    .contact-wrapper {
-        @include adaptiv-value("padding-bottom", 0, 50, 0);
-    }
-}
-@media (max-width: 767px) {
-    .form-row__col, .form__item__button {
-        text-align: center;
-    }
-    .form-input {
-        margin: 0 auto;
-    }
-}
+} 
