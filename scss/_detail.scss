@@ -71,18 +71,18 @@
                                 background-repeat: no-repeat;
                                 &:first-child {
                                     list-style: none;
-                                    background-image: url('/img/detail/icons/details_icons_1.png');
+                                    background-image: url('../img/detail/icons/details_icons_1.png');
                                 }
                                 &:nth-child(2) {
-                                    background-image: url('/img/detail/icons/details_icons_2.png');
+                                    background-image: url('../img/detail/icons/details_icons_2.png');
                                     background-position: 2px 9px;
                                 }
                                 &:nth-child(3) {
-                                    background-image: url('/img/detail/icons/details_icons_3.png');
+                                    background-image: url('../img/detail/icons/details_icons_3.png');
                                     background-position: 2px 10px;
                                 }
                                 &:last-child {
-                                    background-image: url('/img/detail/icons/details_icons_4.png');
+                                    background-image: url('../img/detail/icons/details_icons_4.png');
                                 }
                             }
                         }

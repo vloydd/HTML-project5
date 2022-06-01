@@ -15008,7 +15008,7 @@ html {
 
 * html .headi, * body .headi {
   min-height: 640px;
-  background-image: url("/img/header/header_bg.png");
+  background-image: url("../img/header/header_bg.png");
   overflow: hidden;
   background-size: cover;
   background-position: center center;
@@ -15107,7 +15107,7 @@ html {
 }
 
 * html .headi .header .head-cont .head-navb .head-menu .head-menu__list .head-menu__list__item .head-menu__list__item__link:hover::after, * body .headi .header .head-cont .head-navb .head-menu .head-menu__list .head-menu__list__item .head-menu__list__item__link:hover::after {
-  content: url("/img/border-dashed.png");
+  content: url("../img/border-dashed.png");
   height: 2px;
   position: absolute;
   bottom: 7px;
@@ -15122,7 +15122,7 @@ html {
   }
 }
 * html .headi .header .head-cont .head-navb .head-menu .head-menu__list .head-menu__list__item .head-menu__list__item__link.active::after, * body .headi .header .head-cont .head-navb .head-menu .head-menu__list .head-menu__list__item .head-menu__list__item__link.active::after {
-  content: url("/img/border-dashed.png");
+  content: url("../img/border-dashed.png");
   height: 2px;
   position: absolute;
   bottom: 7px;
@@ -15531,21 +15531,21 @@ html {
 
 .detail .detail-wrapper .detail-cont .detail-row .detail-info .detail-info-cont .details-info-list .details-info-list__item:first-child {
   list-style: none;
-  background-image: url("/img/detail/icons/details_icons_1.png");
+  background-image: url("../img/detail/icons/details_icons_1.png");
 }
 
 .detail .detail-wrapper .detail-cont .detail-row .detail-info .detail-info-cont .details-info-list .details-info-list__item:nth-child(2) {
-  background-image: url("/img/detail/icons/details_icons_2.png");
+  background-image: url("../img/detail/icons/details_icons_2.png");
   background-position: 2px 9px;
 }
 
 .detail .detail-wrapper .detail-cont .detail-row .detail-info .detail-info-cont .details-info-list .details-info-list__item:nth-child(3) {
-  background-image: url("/img/detail/icons/details_icons_3.png");
+  background-image: url("../img/detail/icons/details_icons_3.png");
   background-position: 2px 10px;
 }
 
 .detail .detail-wrapper .detail-cont .detail-row .detail-info .detail-info-cont .details-info-list .details-info-list__item:last-child {
-  background-image: url("/img/detail/icons/details_icons_4.png");
+  background-image: url("../img/detail/icons/details_icons_4.png");
 }
 
 .customise .customise-wrapper {

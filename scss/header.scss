@@ -105,7 +105,7 @@
         }
         .headi {
             min-height: 640px;
-            background-image: url('/img/header/header_bg.png');
+            background-image: url('../img/header/header_bg.png');
             overflow: hidden;
             background-size: cover;
             background-position: center center;
@@ -190,7 +190,7 @@
                                             transition: 1s;
                                             color: $white;
                                             &::after {
-                                                content: url('/img/border-dashed.png');
+                                                content: url('../img/border-dashed.png');
                                                 height: 2px;
                                                 position: absolute;
                                                 bottom: 7px;
@@ -204,7 +204,7 @@
                                         }
                                         &.active {
                                             &::after {
-                                                content: url('/img/border-dashed.png');
+                                                content: url('../img/border-dashed.png');
                                                 height: 2px;
                                                 position: absolute;
                                                 bottom: 7px;
